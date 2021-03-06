@@ -1,0 +1,77 @@
+.et-db #et-boc .et-l .dsdws-slider.et_pb_slider {
+
+  // Arrows
+  .et-pb-arrow-next, .et-pb-arrow-prev {
+    background : #FFF;
+    font-size  : 21px;
+    //color        : $mainColor !important;
+    padding    : 0;
+    width      : 45px;
+    height     : 45px;
+    text-align : center;
+    opacity    : 0.54;
+    border     : 1px solid;
+    //border-color : $borderColor;
+
+    &:before {
+      line-height : 45px;
+      }
+
+    &:hover {
+      opacity : 1;
+      }
+    }
+
+  .et-pb-arrow-next {
+    right : -45px;
+
+    &:before {
+      content : "\24";
+      }
+    }
+
+  .et-pb-arrow-prev {
+    left : -45px;
+
+    &:before {
+      content : "\23";
+      }
+    }
+
+  &:hover {
+    .et-pb-arrow-prev {
+      left : 15px;
+      }
+
+    .et-pb-arrow-next {
+      right : 15px;
+      }
+    }
+
+  // Dots
+  .et-pb-controllers {
+    a {
+      margin   : 15px;
+      position : relative;
+
+      &:before {
+        content       : "";
+        position      : absolute;
+        top           : -9px;
+        left          : -9px;
+        width         : 21px;
+        height        : 21px;
+        border        : 2px solid rgba(255, 255, 255, 0);
+        border-radius : 50%;
+        }
+
+      &.et-pb-active-control, &:hover {
+        //background-color : $mainColor;
+
+        &:before {
+          //border-color : $mainColor;
+          }
+        }
+      }
+    }
+  }

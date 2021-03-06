@@ -1,0 +1,224 @@
+// General button styles
+@mixin generalButtonMixin() {
+  /* General button */
+  font-weight  : 500;
+  padding      : 8px 30px !important;
+  text-align   : center;
+  line-height  : 1.3em !important;
+  font-size    : 14px;
+  //border-width  : 1px;
+  border-style : solid;
+  //border-radius : $buttonRadius;
+  &:hover {
+    padding : 8px 30px !important;
+    }
+  &:not([disabled]):not(.disabled) {
+    cursor : pointer;
+    }
+  }
+
+// Primary button
+@mixin primaryButtonMixin() {
+  //color        : $whiteColor !important;
+  //background   : #003DC1 !important;
+  //border-color : #003DC1 !important;
+  @include generalButtonMixin();
+  &:hover {
+    //color        : $whiteColor !important;
+    //background   : #292BB4 !important;
+    //border-color : #292BB4 !important;
+    }
+  }
+
+.dsdws-button-primary,
+.et_pb_button.dsdws-button-primary,
+body.et-db #et-boc .et-l .et_pb_button.dsdws-button-primary,
+body.et-db #et-boc .dsdws-button-primary.et_pb_button,
+body .dsdws-button-primary.et_pb_button,
+.dsdws-module-button-primary .et_pb_button {
+  @include primaryButtonMixin();
+  }
+
+// Secondary button
+@mixin secondButtonMixin() {
+  //color        : #FFF !important;
+  //background   : $secondColor !important;
+  //border-color : $secondColor !important;
+  @include generalButtonMixin();
+  &:hover {
+    //color        : #FFF !important;
+    //background   : $secondHoverColor !important;
+    //border-color : $secondHoverColor !important;
+    }
+  }
+
+.dsdws-button-second,
+.et_pb_button.dsdws-button-second,
+body.et-db #et-boc .et-l .et_pb_button.dsdws-button-second,
+body.et-db #et-boc .dsdws-button-second.et_pb_button,
+body .dsdws-button-second.et_pb_button,
+.dsdws-module-button-second .et_pb_button {
+  @include secondButtonMixin();
+  }
+
+// Outline button
+@mixin outlineButtonMixin() {
+  //color        : #000000 !important;
+  //background   : transparent !important;
+  //border-color : #003DC1 !important;
+  @include generalButtonMixin();
+  &:hover {
+    //color        : #FFF !important;
+    //background   : #003DC1 !important;
+    //border-color : #003DC1 !important;
+    }
+  }
+
+.dsdws-button-outline,
+.et_pb_button.dsdws-button-outline,
+body.et-db #et-boc .et-l .et_pb_button.dsdws-button-outline,
+body.et-db #et-boc .dsdws-button-outline.et_pb_button,
+body .dsdws-button-outline.et_pb_button,
+.dsdws-module-button-outline .et_pb_button {
+  @include outlineButtonMixin();
+  }
+
+// Disabled Button
+@mixin disabledButtonMixin() {
+  cursor           : not-allowed;
+  border-color     : $lightGrey !important;
+  background-color : $lightGrey !important;
+  color            : #FFF !important;
+  opacity          : 1;
+  @include generalButtonMixin();
+
+  &:hover {
+    cursor           : not-allowed;
+    border-color     : $lightGrey !important;
+    background-color : $lightGrey !important;
+    color            : #FFF !important;
+    }
+  }
+
+// Medium Button
+@mixin mediumButtonMixin() {
+  padding     : 14px 24px !important;
+  font-size   : 16px !important;
+  line-height : 1.3em !important;
+
+  &:hover {
+    padding : 14px 24px !important;
+    }
+  }
+
+.dsdws-button-medium,
+.et-db #et-boc .et-l .et_pb_button.dsdws-button-medium,
+.et-db #et-boc .et-l .dsdws-module-button-medium .et_pb_button {
+  @include mediumButtonMixin();
+  }
+
+// Large button
+@mixin largeButtonMixin() {
+  padding   : 15px 35px !important;
+  font-size : 18px !important;
+  &:hover {
+    padding : 15px 35px !important;
+    }
+  }
+
+.dsdws-button-large,
+.et_pb_button.dsdws-button-large,
+body.et-db #et-boc .et-l .dsdws-button-large.et_pb_button,
+body.et-db #et-boc .dsdws-button-large.et_pb_button,
+body .dsdws-button-large.et_pb_button,
+.dsdws-module-button-large .et_pb_button {
+  @include largeButtonMixin();
+  }
+
+
+@mixin underlineButton($type: primary) {
+  border          : none !important;
+  background      : transparent !important;
+  padding         : 0 !important;
+  font-size       : 16px;
+  font-weight     : 600;
+  text-decoration : underline !important;
+  display         : inline-block;
+
+  &:hover {
+    background : transparent !important;
+    padding    : 0 !important;
+    }
+
+  @if ($type == primary) {
+    //color : $mainColor !important;
+    //&:hover {
+    //  color : $mainHoverColor !important;
+    //  }
+    }
+  @if ($type == second) {
+    //color : $secondColor !important;
+    //&:hover {
+    //  color : $secondHoverColor !important;
+    //  }
+    }
+  }
+
+.dsdws-button-underline-primary,
+.et_pb_button.dsdws-button-underline-primary,
+body.et-db #et-boc .dsdws-button-underline-primary.et_pb_button,
+body .dsdws-button-underline-primary.et_pb_button,
+.dsdws-module-button-underline-primary .et_pb_button {
+  @include underlineButton(primary);
+  }
+
+.dsdws-button-underline-second,
+.et_pb_button.dsdws-button-underline-second,
+body.et-db #et-boc .dsdws-button-underline-second.et_pb_button,
+body .dsdws-button-underline-second.et_pb_button,
+.dsdws-module-button-underline-second .et_pb_button {
+  @include underlineButton(second);
+  }
+
+@mixin iconButtonMixin($type: primary) {
+  border     : none !important;
+  background : transparent !important;
+  padding    : 0 !important;
+
+  &:after {
+    display : inline-block !important;
+    color   : inherit;
+    }
+
+  &:hover {
+    background : transparent !important;
+    padding    : 0 !important;
+    }
+
+  @if ($type == primary) {
+    //&:hover {
+    //  color : $mainColor !important;
+    //  }
+    }
+  @if ($type == second) {
+    //&:hover {
+    //  color : $secondColor !important;
+    //  }
+    }
+  }
+
+.dsdws-icon-button-primary,
+.et_pb_button.dsdws-icon-button-primary,
+body.et-db #et-boc .dsdws-icon-button-primary.et_pb_button,
+body .dsdws-icon-button-primary.et_pb_button,
+.dsdws-module-icon-button-primary .et_pb_button {
+  @include iconButtonMixin(primary);
+  }
+
+.dsdws-icon-button-second,
+.et_pb_button.dsdws-icon-button-second,
+body.et-db #et-boc .dsdws-icon-button-second.et_pb_button,
+body .dsdws-icon-button-second.et_pb_button,
+.dsdws-module-icon-button-second .et_pb_button {
+  @include iconButtonMixin(second);
+  }

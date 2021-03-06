@@ -1,0 +1,33 @@
+// Recent Posts Widget
+.dsdws-sidebar .et_pb_widget {
+
+  &.widget_recent_comments,
+  &.widget_recent_entries {
+    ul {
+      li {
+        padding       : 0 !important;
+        margin-bottom : 16px !important;
+
+        a {
+          //color       : $baseHeaderColor !important;
+          font-weight : bold;
+
+          &:hover {
+            //color : $mainColor;
+            }
+          }
+
+        span.post-date {
+          display   : block;
+          font-size : 12px;
+          }
+        }
+      }
+    }
+
+  &.widget_recent_comments {
+    li {
+      font-size : 14px;
+      }
+    }
+  }

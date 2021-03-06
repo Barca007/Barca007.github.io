@@ -1,0 +1,1 @@
+<a href="https://www.reg.ru/support/sozdanie-sajtov/reg-site/#expanders=c0,c1" target="_blank"><?php esc_html_e( 'Read Divi Documentation', $themename ); ?></a>

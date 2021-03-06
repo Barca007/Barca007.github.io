@@ -1,0 +1,37 @@
+.et-db #et-boc .et-l .dsdws-toggle {
+  border-radius    : 0;
+  border-width     : 0 0 1px 0;
+  border-style     : solid;
+  //border-color     : $borderColor;
+  background-color : transparent;
+  padding          : 8px 0;
+
+  .et_pb_toggle_title {
+    @include responsiveFontSize(16px, 15px, 14px);
+    position : relative;
+    padding  : 10px 24px 10px 0 !important;
+
+    &:before {
+      content   : "\4c";
+      //color     : $mainColor;
+      font-size : 18px;
+      margin    : 0;
+      @include centerHeightUnk();
+      }
+    }
+
+  .et_pb_toggle_content {
+    padding : 20px 0;
+    }
+
+  &.et_pb_toggle_open {
+    background : transparent;
+
+    .et_pb_toggle_title {
+      &:before {
+        content : "\4b";
+        display : block;
+        }
+      }
+    }
+  }

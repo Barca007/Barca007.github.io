@@ -1,0 +1,8 @@
+// ------------------------------------------------------------------------------------------- //
+//   Base dir handles the overall layout of the web page such as header,
+//            footer, sidebar, widgets, container and grid system.
+// ------------------------------------------------------------------------------------------- //
+@import "fixes";
+@import "menu";
+@import "footer";
+@import "sidebar-widgets/0-sidebar-widgets";

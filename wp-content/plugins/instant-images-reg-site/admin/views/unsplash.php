@@ -1,0 +1,25 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+?>
+
+<?php if($show_settings){ ?>
+<header class="header-wrap">
+   <h1>
+      <?php echo INSTANT_IMG_TITLE; ?> <em><?php echo INSTANT_IMAGES_VERSION; ?></em>
+      <span>
+      <?php
+			$tagline = __('One click photo uploads from %s', 'instant-images');
+			echo sprintf($tagline, '<a href="https://unsplash.com/" target="_blank">unsplash.com</a>');
+		?>
+   </h1>
+</header>
+<?php } ?>
+<?php include( INSTANT_IMG_PATH . 'admin/includes/cta/permissions.php');	?>
+<?php
+	if($show_settings){
+		include( INSTANT_IMG_PATH . 'admin/includes/unsplash-settings.php');
+	}
+?>
+<section class="instant-images-wrapper">
+	<div id="app"></div>
+</section>

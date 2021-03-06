@@ -1,0 +1,119 @@
+.dsdws-checkout .woocommerce,
+.dsdws-checkout .woocommerce-page {
+
+  @media (min-width : $breakLarge) {
+    form.checkout {
+      display         : flex;
+      justify-content : space-between;
+      flex-wrap       : wrap;
+      align-content   : flex-start;
+
+      .col2-set, .dsdws-checkout-order {
+        width : 48.5%;
+        }
+      }
+    }
+
+  .col2-set {
+    .col-1, .col-2 {
+      float         : none;
+      width         : 100%;
+      margin-bottom : 24px;
+      }
+    }
+
+  .form-row {
+    margin-bottom : 16px;
+    }
+
+  .woocommerce-NoticeGroup {
+    width   : 100%;
+    display : block;
+    }
+
+  #customer_details h3 {
+    @include responsiveFontSize(21px, 20px, 19px);
+    padding-bottom : 24px;
+    }
+
+
+  table.shop_table {
+    @include orderTable();
+    }
+
+  h3#order_review_heading {
+    display : none;
+    }
+
+  table.shop_table, #payment ul.methods {
+    //background-color : $lightGrey;
+    padding          : 24px;
+    //border-radius    : $mainRadius;
+    margin-bottom    : 32px;
+    }
+
+  #payment {
+    background : transparent;
+
+    ul.payment_methods {
+      border : none;
+
+      li {
+        margin-bottom : 10px;
+        }
+
+      label {
+        display   : inline-block;
+        cursor    : pointer;
+        font-size : 14px;
+        //color     : $baseHeaderColor;
+        }
+
+      input[type="radio"] {
+        @include formRadioMixin();
+
+        &:checked + label {
+          font-weight : 600 !important;
+          }
+        }
+      }
+
+    div.payment_box {
+      background    : #FFF;
+      //border-radius : $mainRadius;
+      font-size     : 14px;
+
+      &:before {
+        border-bottom-color : #FFF;
+        }
+      }
+
+    .place-order {
+      padding : 0;
+      }
+
+    #place_order {
+      @include primaryButtonMixin();
+      }
+    }
+
+  .woocommerce-form-coupon-toggle {
+    margin-bottom : 40px;
+    }
+
+  form.checkout_coupon .form-row {
+    width : 50%;
+
+    @media (max-width : 767px) {
+      &.form-row-first {
+        margin-bottom : 0;
+        }
+      }
+    }
+
+  .woocommerce-privacy-policy-text {
+    font-size     : 13px;
+    margin-bottom : 20px;
+    }
+  }
+

@@ -1,0 +1,15 @@
+.et-db #et-boc .et-l .dsdws-contact-form {
+  input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select {
+    @include formInputMixin();
+    }
+
+  textarea {
+    @include formTextareaMixin();
+    }
+
+  &.dsdws-contact-form-large {
+    input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select {
+      @include formLarge();
+      }
+    }
+  }

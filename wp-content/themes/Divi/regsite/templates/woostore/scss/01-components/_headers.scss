@@ -1,0 +1,35 @@
+.dsdws-heading-h1 {
+  h1, h2, h3, h4, h5, h6 {
+    @include responsiveFontSize(50px, 44px, 37px);
+    }
+  }
+
+.dsdws-heading-h2 {
+  h1, h2, h3, h4, h5, h6 {
+    @include responsiveFontSize(37px, 35px, 33px);
+    }
+  }
+
+.dsdws-heading-h3 {
+  h1, h2, h3, h4, h5, h6 {
+    @include responsiveFontSize(28px, 26px, 24px);
+    }
+  }
+
+.dsdws-heading-h4 {
+  h1, h2, h3, h4, h5, h6 {
+    @include responsiveFontSize(24px, 22px, 20px);
+    }
+  }
+
+.dsdws-heading-h5 {
+  h1, h2, h3, h4, h5, h6 {
+    @include responsiveFontSize(21px, 20px, 19px);
+    }
+  }
+
+.dsdws-heading-h6 {
+  h1, h2, h3, h4, h5, h6 {
+    font-size : 16px;
+    }
+  }

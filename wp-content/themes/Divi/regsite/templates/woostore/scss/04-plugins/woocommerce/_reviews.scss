@@ -1,0 +1,60 @@
+// Reviews
+.dsdws-reviews {
+  #reviews {
+
+    h2.woocommerce-Reviews-title {
+      @include responsiveFontSize(24px, 22px, 20px);
+      font-weight   : 600;
+      margin-bottom : 20px;
+      //color         : $baseHeaderColor !important;
+      }
+
+    .commentlist {
+      .meta {
+        .woocommerce-review__author {
+          //color   : $baseHeaderColor !important;
+          display : block;
+          }
+
+        .woocommerce-review__dash {
+          display : none;
+          }
+
+        time {
+          font-size     : 14px;
+          margin-bottom : 15px;
+          }
+        }
+      }
+
+    #respond {
+      .comment-reply-title {
+        font-size     : 18px;
+        font-weight   : 600;
+        //color         : $baseHeaderColor !important;
+        margin-bottom : 10px;
+        display       : block;
+        }
+
+      input[type="submit"] {
+        @include secondButtonMixin();
+        }
+      }
+    }
+  }
+
+/* Responsive avatar */
+.woocommerce .dsdws-reviews #reviews #comments ol.commentlist li {
+  @media (max-width : $breakSmall) {
+    img.avatar {
+      position      : relative !important;
+      left          : auto;
+      top           : auto;
+      margin-bottom : 10px;
+      float         : none;
+      }
+    .comment-text {
+      margin-left : 0 !important;
+      }
+    }
+  }

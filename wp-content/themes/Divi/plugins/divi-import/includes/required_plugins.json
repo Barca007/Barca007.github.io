@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "supreme-modules-for-divi/supreme-modules-for-divi.php",
+    "supreme-modules-pro-for-divi/supreme-modules-pro-for-divi.php",
+    "instant-images-reg-site/instant-images-reg-site.php"
+  ]
+}

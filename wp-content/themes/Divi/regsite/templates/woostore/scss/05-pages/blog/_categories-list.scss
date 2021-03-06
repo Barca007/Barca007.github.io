@@ -1,0 +1,25 @@
+.dsdws-categories-list {
+  list-style-type : none;
+  font-size       : 14px;
+  margin          : 0;
+  padding         : 0 !important;
+
+  li {
+    display : inline-block;
+    margin  : 0 10px 17px 0;
+
+    a {
+      border-bottom : solid 1px transparent;
+      padding       : 7px;
+      //color         : $baseFontColor;
+      @include transition();
+      }
+    }
+  }
+
+.blog .dsdws-categories-list .cat-item-all a,
+.dsdws-categories-list .current-cat a,
+.dsdws-categories-list a:hover {
+  //border-color : $mainColor;
+  //color        : $baseHeaderColor;
+  }

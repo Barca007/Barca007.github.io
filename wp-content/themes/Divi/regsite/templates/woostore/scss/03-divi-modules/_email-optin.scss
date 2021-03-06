@@ -1,0 +1,34 @@
+.et-db #et-boc .et-l .dsdws-optin {
+
+  .et_pb_newsletter_form, p.et_pb_newsletter_field {
+    .input, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select {
+      @include formInputMixin();
+      }
+
+    textarea {
+      @include formTextareaMixin();
+      }
+    }
+
+  &.dsdws-inline-optin {
+    @media (min-width : 1200px) {
+      .et_pb_newsletter_fields {
+        .et_pb_newsletter_field {
+          flex-basis : calc(100% - 160px);
+          }
+
+        .et_pb_newsletter_button_wrap {
+          flex-basis : 150px;
+          }
+        }
+      }
+    }
+
+  &.dsdws-form-large-optin {
+    .et_pb_newsletter_form, p.et_pb_newsletter_field {
+      .input, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select {
+        @include formLarge();
+        }
+      }
+    }
+  }

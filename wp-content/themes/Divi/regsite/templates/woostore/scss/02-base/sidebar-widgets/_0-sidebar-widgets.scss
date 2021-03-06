@@ -1,0 +1,28 @@
+@import "tags";
+@import "recent-posts";
+@import "search";
+@import "categories-and-archives";
+@import "woocommerce-cart";
+@import "woocommerce-price-filter";
+@import "woocommerce-widgets";
+
+.dsdws-sidebar .et_pb_widget {
+  &:not(:last-child):not(.widget_search) {
+    margin-bottom  : 30px !important;
+    padding-bottom : 35px;
+    border-bottom  : 1px solid;
+    //border-color   : $borderColor;
+    }
+
+  &.widget_search:not(:last-child) {
+    margin-bottom : 50px !important;
+    }
+  }
+
+.dsdws-widgettitle,
+.dsdws-sidebar .widgettitle {
+  @include responsiveFontSize(21px, 20px, 19px);
+  //color          : $baseHeaderColor;
+  font-weight    : 500;
+  padding-bottom : 20px;
+  }

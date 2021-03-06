@@ -1,0 +1,90 @@
+.woocommerce ul.products,
+.et_pb_wc_related_products ul.products {
+  margin-bottom : 0;
+
+  li.product {
+
+    // Image
+    .et_shop_image {
+      margin-bottom : 10px;
+
+      img {
+        //border-radius : $mainRadius;
+        margin-bottom : 0 !important;
+        }
+      }
+
+    // Product title
+    h2 {
+      font-size   : 16px !important;
+      line-height : 1.4 !important;
+      //color       : $baseFontColor !important;
+
+      &:hover {
+        //color : $baseHeaderColor !important;
+        }
+      }
+
+    // Price
+    .price {
+      //color       : $baseHeaderColor !important;
+      font-size   : 14px;
+      font-weight : bold;
+
+      del {
+        opacity   : 1;
+        //color     : $baseFontColor !important;
+        font-size : 14px;
+        }
+
+      ins {
+        //color : $secondColor;
+        }
+      }
+
+    // Buttons
+    .divi-ecommerce-pro-shop-buttons-wrapper {
+      display     : flex;
+      flex-wrap   : wrap;
+      position    : inherit;
+      align-items : flex-end;
+
+      a.button {
+        color        : #000000 !important;
+        background   : transparent !important;
+        margin-right : 10px;
+        //border-color : #E6E6EB !important;
+
+        &:hover {
+          //color        : #FFF !important;
+          //background   : #003DC1 !important;
+          //border-color : #003DC1 !important;
+          }
+        }
+
+      a.added_to_cart {
+        @include underlineButton("second");
+        }
+      }
+    }
+
+  // Equal height
+  display       : flex;
+  flex-wrap     : wrap;
+
+  li.product {
+    float          : none;
+    display        : flex;
+    flex-direction : column;
+
+    .woocommerce-LoopProduct-link {
+      display        : flex;
+      flex-direction : column;
+      height         : 100%;
+
+      .price, .star-rating {
+        margin-top : auto !important;
+        }
+      }
+    }
+  }

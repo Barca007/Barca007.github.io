@@ -1,0 +1,14 @@
+2021-03-04 09:20:23 - ----------- start import -----------
+2021-03-04 09:20:23 - 1 - Success: Directory wp-content/uploads exists!
+2021-03-04 09:20:23 - 2 - Success: Directory wp-content/uploads deleted!
+2021-03-04 09:20:23 - 3 - Success: PHP Class "ZipArchive" exists!
+2021-03-04 09:20:23 - 4 - Success: File uploads.zip downloaded!
+2021-03-04 09:20:23 - 5 - Success: File uploads.zip unpacked!
+2021-03-04 09:20:23 - 6 - Success: File uploads.zip deleted!
+2021-03-04 09:20:23 - 7 - Success: File dump.sql copied!
+2021-03-04 09:20:23 - 8 - Success: File dump.sql saved!
+2021-03-04 09:20:23 - 9 - Success: File dump.sql changed!
+2021-03-04 09:20:24 - 10 - Success: File dump.sql saved and imported!
+2021-03-04 09:20:24 - 11 - Success: File dump.sql deleted!
+2021-03-04 09:20:24 - 12 - Success: Directory wp-content/et-cache deleted!
+2021-03-04 09:20:24 - ----------- SUCCESS -----------

@@ -1,0 +1,167 @@
+// Comment list
+ol.commentlist {
+  margin-top : 20px;
+
+  .comment {
+
+    .comment-body {
+      padding       : 0 0 30px 0;
+      margin-bottom : 30px;
+      font-size     : 16px;
+      text-align    : left;
+      min-height    : auto;
+      border-bottom : 1px solid;
+      //border-color  : $borderColor;
+      }
+
+    .comment_avatar {
+      img {
+        overflow      : hidden;
+        width         : 80px;
+        height        : 80px;
+        max-width     : none !important;
+        //border-radius : $mainRadius;
+        }
+      }
+
+    &.bypostauthor {
+
+      .comment_postinfo span.fn {
+        //color : $mainColor;
+        }
+      }
+
+    .comment_postinfo {
+      display        : flex;
+      flex-direction : column-reverse;
+
+      span.fn {
+        display   : block;
+        font-size : 16px;
+        }
+      }
+
+    .comment_area {
+      padding : 0;
+      }
+
+    .reply-container {
+      display    : block;
+      margin-top : 8px;
+      }
+
+    .comment-reply-link {
+      @include underlineButton(second);
+      top : 0;
+
+      &:after {
+        display : none;
+        }
+      }
+
+    .comment-reply-title {
+      span {
+        margin-bottom : 10px;
+        display       : block;
+        }
+      }
+
+    #respond {
+      margin-top : 0;
+      }
+
+    .children {
+      margin-left : 0;
+      }
+    }
+
+  // Mobile friendly
+  @media (min-width : $breakSmall) {
+    .comment {
+      padding-left : 104px;
+
+      .comment-body {
+        padding-right : 65px;
+        }
+
+      .comment_avatar {
+        left : -104px;
+        }
+      }
+    }
+
+  @media (max-width : $breakSmall) {
+    .comment {
+      .comment_avatar {
+        position      : relative;
+        left          : auto;
+        top           : auto;
+        margin-bottom : 10px;
+        }
+
+      .comment-reply-link {
+        position : relative;
+        display  : inline-block;
+        }
+      }
+    }
+  }
+
+#commentform {
+  input {
+    &[type="text"], &[type="email"], &[type="url"] {
+      @include formInputMixin();
+      }
+    }
+
+  textarea {
+    @include formTextareaMixin();
+    }
+
+  .form-submit {
+    text-align : center;
+    margin-top : 24px;
+
+    .et_pb_button {
+      @include outlineButtonMixin();
+      }
+    }
+
+
+  @media (min-width : 600px) {
+    .comment-form-author, .comment-form-email, .comment-form-url {
+      width : 33.33%;
+      float : left;
+
+      input {
+        display : block;
+        width   : 100% !important;
+        }
+      }
+    .comment-form-author, .comment-form-email {
+      padding-right : 10px;
+      }
+    }
+  }
+
+.comment-form-comment {
+  padding-bottom : 5px;
+  }
+
+#comment-wrap {
+  font-size : 14px;
+
+  h1.page_title {
+    @include responsiveFontSize(28px, 26px, 24px);
+    margin-bottom : 24px;
+    }
+
+  h3.comment-reply-title {
+    @include responsiveFontSize(21px, 20px, 19px);
+    }
+
+  .comment-respond {
+    max-width : $smallContainerWidth !important;
+    @include pushAuto();
+    }
+  }

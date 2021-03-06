@@ -1,0 +1,39 @@
+.dsdws-overlay {
+  &-on-hover-primary, &-on-hover-second, &-primary, &-second {
+    position : relative;
+
+    &:before {
+      content  : "";
+      display  : block !important;
+      width    : 100%;
+      height   : 100%;
+      position : absolute;
+      left     : 0;
+      top      : 0;
+      }
+    }
+
+  &-primary:before, &-second:before {
+    opacity : 0.54;
+    }
+
+  &-on-hover-primary, &-on-hover-second {
+
+    &:before {
+      opacity : 0;
+      @include transition();
+      }
+
+    &:hover:before {
+      opacity : 0.54;
+      }
+    }
+
+  //&-primary:before, &-on-hover-primary:before {
+  //  background : $mainColor;
+  //  }
+  //
+  //&-second:before, &-on-hover-second:before {
+  //  background : $secondColor;
+  //  }
+  }

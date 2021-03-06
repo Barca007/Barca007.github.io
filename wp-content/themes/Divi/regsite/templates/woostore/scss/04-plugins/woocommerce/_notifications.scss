@@ -1,0 +1,28 @@
+#et-boc .et-l .et_pb_wc_cart_notice,
+#et-boc .et-l .woocommerce,
+.woocommerce-page,
+.woocommerce {
+
+  .woocommerce-error, .woocommerce-info, .woocommerce-message {
+    text-align : left;
+
+    a.button.wc-forward, a.woocommerce-Button {
+      @include underlineButton();
+      }
+    }
+
+  .woocommerce-error {
+    @include notificationMixin("error");
+    }
+
+  .woocommerce-info {
+    @include notificationMixin("general");
+    }
+
+  .woocommerce-message {
+    @include notificationMixin("success");
+    }
+  }
+
+
+

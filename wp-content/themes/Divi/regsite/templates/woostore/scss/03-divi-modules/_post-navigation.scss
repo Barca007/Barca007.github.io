@@ -1,0 +1,21 @@
+.et-db #et-boc .et-l .dsdws-post-navigation {
+  padding       : 15px 0;
+  border-top    : 1px solid;
+  border-bottom : 1px solid;
+  //border-color  : $borderColor;
+
+  a {
+    font-size   : 16px;
+    font-weight : 500;
+   // color       : $baseHeaderColor;
+
+    &:hover {
+      //color : $mainColor;
+      }
+
+    .meta-nav {
+      //color     : $mainColor;
+      font-size : 24px;
+      }
+    }
+  }

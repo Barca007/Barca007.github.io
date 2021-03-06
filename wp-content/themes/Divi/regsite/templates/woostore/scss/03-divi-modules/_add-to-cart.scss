@@ -1,0 +1,39 @@
+.et-db #et-boc .et-l .dsdws-add-to-cart {
+
+  .variations {
+    select {
+      @include formInputMixin();
+      }
+    }
+
+  .woocommerce-variation-price {
+    margin-bottom : 20px;
+
+    .price {
+      //color       : $baseHeaderColor !important;
+      font-size   : 23px;
+      font-weight : 600;
+
+      del {
+        opacity   : 1;
+        //color     : $baseFontColor !important;
+        font-size : 18px;
+        }
+      }
+    }
+
+  input.qty {
+    @include formInputMixin();
+    height      : 50px !important;
+    line-height : 50px !important;
+    }
+
+  button.button {
+    @include primaryButtonMixin();
+    @include mediumButtonMixin();
+    }
+
+  .tinvwl-after-add-to-cart {
+    margin-top : 20px;
+    }
+  }

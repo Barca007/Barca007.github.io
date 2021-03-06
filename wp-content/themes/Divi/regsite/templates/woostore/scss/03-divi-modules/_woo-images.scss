@@ -1,0 +1,16 @@
+.et-db #et-boc .et-l .dsdws-woo-images {
+
+  .woocommerce-product-gallery .woocommerce-product-gallery__image img,
+  .woocommerce-product-gallery .flex-control-thumbs img {
+    //border-radius : $mainRadius;
+    overflow      : hidden;
+    border        : 2px solid;
+    //border-color  : $borderColor;
+    }
+
+  .woocommerce-product-gallery .flex-control-thumbs img {
+    &.flex-active, &:hover {
+      //border-color : $mainColor;
+      }
+    }
+  }

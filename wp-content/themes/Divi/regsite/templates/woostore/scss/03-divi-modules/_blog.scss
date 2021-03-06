@@ -1,0 +1,54 @@
+.et-db #et-boc .et-l .dsdws-blog {
+
+  .et_audio_content,
+  .et_main_video_container,
+  .et_pb_slider,
+  .et_pb_image_container,
+  .post_format-post-format-quote .et_quote_content,
+  &:not(.et_pb_blog_grid_wrapper) .entry-featured-image-url {
+    //border-radius : $mainRadius;
+    margin        : 0 0 20px !important;
+    }
+
+  a.entry-featured-image-url {
+    margin-bottom : 0 !important;
+    }
+
+  .et_pb_post {
+    border        : none;
+    //border-radius : $mainRadius;
+    padding       : 0 !important;
+    overflow      : hidden;
+
+    .entry-title {
+      font-size      : 17px;
+      font-weight    : 600;
+      padding-bottom : 8px;
+      line-height    : 1.2;
+
+      &:hover {
+        //color : $mainColor;
+        }
+      }
+
+    .post-meta {
+
+      .author a {
+        //color : $baseHeaderColor;
+
+        &:hover {
+          //color : $mainColor;
+          }
+        }
+      }
+
+    .post-content {
+      font-size : 14px;
+
+      a.more-link {
+        @include underlineButton();
+        display : inline-block;
+        }
+      }
+    }
+  }

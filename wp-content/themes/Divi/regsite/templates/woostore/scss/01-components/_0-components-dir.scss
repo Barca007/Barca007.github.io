@@ -1,0 +1,54 @@
+// ------------------------------------------------------------------------------------------- //
+//           Components dir handles the reusable elements such as
+//                                     buttons, cards etc.
+// ------------------------------------------------------------------------------------------- //
+@import "buttons";
+@import "form";
+@import "notification";
+@import "bg";
+@import "colors";
+@import "headers";
+@import "overlay";
+
+.dsdws-no-padding {
+  padding : 0 !important;
+  }
+
+//.dsdws-borderRadius {
+//  border-radius : $mainRadius;
+//  }
+//
+//.dsdws-borderRadiusImage img {
+//  border-radius : $mainRadius;
+//  }
+
+.dsdws-small-row {
+  max-width : $smallContainerWidth !important;
+  }
+
+.dsdws-flex-row-reverse {
+  @media (min-width : $breakLarge) {
+    flex-direction : row-reverse;
+
+    &.et_pb_gutters2 .et_pb_column:first-child {
+      margin-left  : 3% !important;
+      margin-right : 0;
+      }
+
+    &.et_pb_gutters3 .et_pb_column:first-child {
+      margin-left  : 5.5% !important;
+      margin-right : 0;
+      }
+
+    &.et_pb_gutters4 .et_pb_column:first-child {
+      margin-left  : 8% !important;
+      margin-right : 0;
+      }
+    }
+  }
+
+.dsdws-align-col-items-to-bottom {
+  display         : flex;
+  flex-direction  : column;
+  justify-content : flex-end;
+  }

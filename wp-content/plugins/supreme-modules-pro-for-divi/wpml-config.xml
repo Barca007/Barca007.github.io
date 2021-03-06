@@ -1,0 +1,19 @@
+<wpml-config>
+	<shortcodes>
+		<shortcode>
+			<tag>dsm_button</tag>
+			<attributes>
+				<attribute>button_one_text</attribute>
+				<attribute>button_two_text</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+	<shortcodes>
+		<shortcode>
+			<tag>dsm_block_reveal_text</tag>
+			<attributes>
+				<attribute>block_reveal_text</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+</wpml-config>

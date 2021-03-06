@@ -1,0 +1,7 @@
+#: inc/CustomizerImporter.php:43
+msgid "%1$sSettings%2$s update!"
+msgstr ""
+
+#: inc/CustomizerImporter.php:43
+msgid "Feedback"
+msgstr ""

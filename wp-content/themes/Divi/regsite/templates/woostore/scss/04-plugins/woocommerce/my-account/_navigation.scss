@@ -1,0 +1,38 @@
+.dsdws-my-account .woocommerce-MyAccount-navigation {
+  margin-bottom : 24px;
+
+  ul {
+    list-style-type : none;
+    padding         : 0;
+    display         : flex;
+    margin          : 0;
+    flex-wrap       : wrap;
+
+    li {
+      margin    : 2px;
+      flex      : 1;
+      min-width : 125px;
+
+      a {
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        text-align      : center;
+        font-weight     : bold;
+        padding         : 12px 8px;
+        width           : 100%;
+        height          : 100%;
+        line-height     : 1.5;
+        //color           : $baseFontColor;
+        //background      : $lightGrey;
+        //border-radius   : $mainRadius;
+        @include transition();
+        }
+
+      &.is-active a, a:hover {
+        color : #FFF !important;
+        //background : $mainColor !important;
+        }
+      }
+    }
+  }

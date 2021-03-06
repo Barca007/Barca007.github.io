@@ -1,0 +1,2493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi 4.0.2\n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-02-16 10:54+0400\n"
+"Last-Translator: Denis\n"
+"Language-Team: Elegant Themes\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;"
+"esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.4.2\n"
+"POT-Creation-Date: \n"
+
+msgid " Enable canonical URL's"
+msgstr " Канонический URL"
+
+msgid " Enable custom title "
+msgstr " Произвольный заголовок "
+
+msgid " Enable meta description"
+msgstr " Мета описание"
+
+msgid " Enable meta keywords"
+msgstr " Мета ключевые слова"
+
+msgid "%1$s Columns"
+msgstr "%1$s Столбцы"
+
+msgid "%d Item"
+msgstr "%d Элемент"
+
+msgid "%d Items"
+msgstr "%d предметов"
+
+msgid "%s Theme Options"
+msgstr "%s Настройки темы"
+
+msgid "&hellip;"
+msgstr "&hellip;"
+
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Предыдущие Записи"
+
+msgid "+ Add One More Tab"
+msgstr "+ Добавить еще один таб"
+
+msgid "0 Comments"
+msgstr "0 Комментариев"
+
+msgid "0 comments"
+msgstr "Нет комментариев"
+
+msgid "1 Column"
+msgstr "1 столбец"
+
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+msgid "1 comment"
+msgstr "1 комментарий"
+
+msgid "404 Not Found"
+msgstr "404 ничего не найдено"
+
+msgid ""
+"<div class=\"updated\"><p>This is a fresh installation of %1$s theme. Don't forget to go to "
+"<a href=\"%2$s\">ePanel</a> to set it up. This message will disappear once you have clicked "
+"the Save button within the <a href=\"%2$s\">theme's options page</a>.</p></div>"
+msgstr ""
+"<div class=\"updated\"><p>Это новая установка %1$s темы. Не забудьте зайти в <a href=\"%2$s"
+"\">ePanel</a> для конфигурации темы.  Это сообщение исчезнет, как только вы нажмете кнопку "
+"\"Сохранить\" <a href=\"%2$s\">на странице настроек темы</a>.</p></div>"
+
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your Elegant Themes "
+"subscription. To do this, you need to enter both your Elegant Themes Username and your "
+"Elegant Themes API Key into the Updates Tab in your theme and plugin settings. To locate "
+"your API Key, <a href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank"
+"\">log in</a> to your Elegant Themes account and navigate to the <strong>Account > API Key</"
+"strong> page. <a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please make sure "
+"that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>Прежде чем получать обновления, вам необходимо подтвердить свою подписку на Elegant "
+"Themes. Для этого вам нужно ввести свое имя пользователя на Elegant Themes  и свой ключ "
+"Elegant Themes API во вкладке обновлений в свой теме и в настройках плагинов. Чтобы найти "
+"свой ключ API Key, <a href=\"https://www.elegantthemes.com/members-area/api/\" target="
+"\"_blank\">войдите</a> в свой аккаунт Elegant Themes и зайдите на страницу <strong>Аккаунт "
+"> Ключ API</strong>. <a href=\"http://www.elegantthemes.com/gallery/divi/documentation/"
+"update/\" target=\"_blank\"> Узнайте подробности здесь</a></em>. Если это сообщение все еще "
+"отображается, убедитесь, что вы ввели верное имя пользователя и ключ API"
+
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие Комментарии"
+
+msgid "API Key"
+msgstr "Ключ API"
+
+msgid "About Me"
+msgstr "Обо мне"
+
+msgid "Active Link Color"
+msgstr "Цвет активной ссылки"
+
+msgid "Active Primary Menu Link Color"
+msgstr "Ссылки активного основного меню"
+
+msgid "Add Author Bio"
+msgstr "Добавить информацию об авторе"
+
+msgid "Add Button Icon"
+msgstr "Добавить значок кнопки"
+
+msgid "Add ET Box"
+msgstr "Добавить ET - блок с контентом"
+
+msgid "Add ET Button"
+msgstr "Добавить ET - кнопку"
+
+msgid "Add ET Learn more block"
+msgstr "Добавить ET - блок Learn More"
+
+msgid "Add ET Tabs"
+msgstr "Добавить ET - вкладки"
+
+msgid "Add a Tooltip Text"
+msgstr "Добавить текст всплывающей подсказки"
+
+msgid "Add code to the < body > (good for tracking codes such as google analytics)"
+msgstr ""
+"Добавить код в тэг < body > ( лучше всего работает для кода статистики, например google "
+"analytics )"
+
+msgid "Add code to the < head > of your blog"
+msgstr "Добавить код в < head > вашего блога"
+
+msgid "Add code to the bottom of your posts, before the comments"
+msgstr "Добавьте код в нижнюю часть ваших постов, перед комментариями"
+
+msgid "Add code to the top of your posts"
+msgstr "Добавьте код в начало ваших постов"
+
+msgid "Adsense"
+msgstr "Adsense"
+
+msgid "Adsense Code"
+msgstr "Adsense код"
+
+msgid "Advertisement"
+msgstr "Реклама"
+
+msgid "Alt"
+msgstr "Описание картинки"
+
+msgid "Alternative scroll-to-anchor method"
+msgstr "Альтернативный способ прокрутки до якоря"
+
+msgid ""
+"Any code you place here will appear in body section of all pages of your blog. This is "
+"usefull if you need to input a tracking pixel for a state counter such as Google Analytics."
+msgstr ""
+"Любой код размещенный здесь появится в тэге body на всех страницах сайта. Это позволяет "
+"размещать код статистики посещений, как например Google Analytics."
+
+msgid ""
+"Any code you place here will appear in the head section of every page of your blog. This is "
+"useful when you need to add javascript or css to all pages."
+msgstr ""
+"Любой код, размещенный здесь, появится в верхней части каждой страницы вашего блога. Это "
+"удобно, когда нужно добавить JavaScript или CSS для всех страниц."
+
+msgid ""
+"Any code you place here will be placed at the bottom of all single posts. This is useful if "
+"you are looking to integrating things such as social bookmarking links."
+msgstr ""
+"Любой код, который вы разместите здесь, будет помещен внизу всех отдельных сообщений. Это "
+"полезно, если вы хотите интегрировать такие вещи, как ссылки на социальные закладки."
+
+msgid ""
+"Any code you place here will be placed at the top of all single posts. This is useful if "
+"you are looking to integrating things such as social bookmarking links."
+msgstr ""
+"Любой код размещенный здесь будет расположен в верхней части одиночных страниц постов. "
+"Может быть полезно для интеграции ссылок \"поделиться постом\" на различных социальных "
+"сайтах и так далее."
+
+msgid "Archives"
+msgstr "Архивы"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Author Image URL"
+msgstr "URL изображения автора"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Auto Speed"
+msgstr "Автоматическая скорость"
+
+msgid "Automattic slider speed (works only if Auto is set to yes)"
+msgstr "Автоматическая скорость слайдера (работает только, если установлено значение Да)"
+
+msgid "Back To Top Button"
+msgstr "Кнопка «Вверх»"
+
+msgid "Background"
+msgstr "Фон"
+
+msgid "Background Color"
+msgstr "Цвет фона"
+
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+msgid "Background Position"
+msgstr "Позиция фона"
+
+msgid "Background Repeat"
+msgstr "Повтор фона"
+
+msgid "Banner"
+msgstr "Баннер"
+
+msgid "Blog"
+msgstr "Блог"
+
+msgid "Blog Style Mode"
+msgstr "Режим «Блог»"
+
+msgid "Body Font"
+msgstr "Основной шрифт"
+
+msgid "Body Font Style"
+msgstr "Стиль шрифта Body"
+
+msgid "Body Line Height"
+msgstr "Высота строки Body"
+
+msgid "Body Link Color"
+msgstr "Цвет ссылки Body"
+
+msgid "Body Text Color"
+msgstr "Цвет текста Body"
+
+msgid "Body Text Size"
+msgstr "Размер текста Body"
+
+msgid "Body/Link Line Height"
+msgstr "Высота строки Body/ссылки"
+
+msgid "Body/Link Text Size"
+msgstr "Размер текста Body/ссылки"
+
+msgid "Bold"
+msgstr "Жирный"
+
+msgid "Border Color"
+msgstr "Цвет рамки"
+
+msgid "Border Radius"
+msgstr "Радиус рамки"
+
+msgid "Border Width"
+msgstr "Ширина рамки"
+
+msgid "Bottom"
+msgstr "Низ"
+
+msgid "Bottom Bar"
+msgstr "Нижний Bar"
+
+msgid "Bottom to Top"
+msgstr "Снизу вверх"
+
+msgid "Builder"
+msgstr "Конструктор"
+
+msgid "Button Font Style"
+msgstr "Стиль шрифта кнопки"
+
+msgid "Buttons"
+msgstr "Кнопки"
+
+msgid "Buttons Font"
+msgstr "Шрифт кнопок"
+
+msgid "Buttons Hover Style"
+msgstr "Стиль кнопок при наведении курсора"
+
+msgid "Buttons Style"
+msgstr "Стиль кнопок"
+
+msgid ""
+"By default comments are not placed on pages, however, if you would like to allow people to "
+"comment on your pages simply enable this option. "
+msgstr ""
+"По умолчанию, комментарии не размещаются на страницах, однако, если вы хотите, чтобы люди "
+"могли оставлять комментарии на ваших страницах, просто подключите эту опцию. "
+
+msgid ""
+"By default pages are sorted by name. However if you would rather have them sorted by ID you "
+"can adjust this setting."
+msgstr ""
+"По умолчанию, страницы сортируются по имени. Однако, если вы предпочитаете сортировку по ID "
+"вы можете использовать эту настройку."
+
+msgid ""
+"By default the navigation bar stays on top of the screen at all times. We suggest to "
+"disable this option, if you need to use a logo taller than the default one."
+msgstr ""
+"По умолчанию панель навигации всегда остается в верхней части экрана. Мы предлагаем "
+"отключить эту опцию, если вы хотите использовать логотип больший по размеру, чем "
+"оригинальный."
+
+msgid ""
+"By default the theme creates a Home link that, when clicked, leads back to your blog's "
+"homepage. If, however, you are using a static homepage and have already created a page "
+"called Home to use, this will result in a duplicate link. In this case you should disable "
+"this feature to remove the link."
+msgstr ""
+"По умолчанию в теме создается ссылка на домашнюю страницу, которая ведет на страницу блога. "
+"Но если вы используете статическую домашнюю страницу с названием Home, это приведет к "
+"дублированию ссылки. В таком случае вам нужно отключить опцию, чтобы удалить автоматически "
+"созданную ссылку."
+
+msgid ""
+"By default the theme creates post titles based on the title of your post and your blog "
+"name. If you would like to make your meta title different than your actual post title you "
+"can define a custom title for each post using custom fields. This option must be enabled "
+"for custom titles to work, and you must choose a custom field name for your title below."
+msgstr ""
+"По умолчанию в теме создается название страниц при помощи название постов и имени сайта. "
+"Если вы хотите, чтобы заголовок meta отличался от названия поста, вы можете определить "
+"произвольное значение для каждого поста используя произвольные поля. Опция должна быть "
+"включена для этого и вы должны выбрать название произвольного поля ниже."
+
+msgid ""
+"By default the theme does not add keywords to your header. Most search engines don't use "
+"keywords to rank your site anymore, but some people define them anyway just in case. If you "
+"want to add meta keywords to your header then enable this option and fill in the custom "
+"keywords field below. "
+msgstr ""
+"По умолчанию тема не добавляет ключевые слова в шапку сайта. Многие поисковые системы "
+"больше не используют ключевые слова для оценки вашего сайта, но многие пользователи все "
+"равно определяют их. Если вы хотите добавить meta тэг с ключевыми словами, просто "
+"подключите эту опцию и добавьте их в произвольное поле keywords ниже. "
+
+msgid ""
+"By default the theme truncates your posts on index/homepages automatically to create post "
+"previews. If you would rather show your posts in full on index pages like a traditional "
+"blog then you can activate this feature."
+msgstr ""
+"По умолчанию, в теме создаются выдержки ваших постов на домашней странице и на странице "
+"архивов. Если же вы хотите, чтобы посты отображались целиком на этих страницах, активируйте "
+"данную опцию."
+
+msgid ""
+"By default the theme uses a combination of your blog name and your blog description, as "
+"defined when you created your blog, to create your homepage titles. However if you want to "
+"create a custom title then simply enable this option and fill in the custom title field "
+"below. "
+msgstr ""
+"По умолчанию тема использует сочетание названия и описания вашего сайта, которые вы "
+"определили во время создания сайта, для создания названия домашней страницы. Однако если вы "
+"хотите создать произвольный заголовок, просто подключите данную опцию и заполните "
+"произвольное поле заголовок ( title ) ниже. "
+
+msgid ""
+"By default the theme uses your blog description, as defined when you created your blog, to "
+"fill in the meta description field. If you would like to use a different description then "
+"enable this option and fill in the custom description field below. "
+msgstr ""
+"По умолчанию тема использует описание вашего сайта, которые вы определили во время создания "
+"сайта, для создания тэгов meta описания. Если вы хотите использовать другое описание, "
+"подключите данную опцию и заполните произвольного поле Описание ( description ) ниже. "
+
+msgid ""
+"By default thumbnail images are created using custom fields. However, if you would rather "
+"use the images that are already in your post for your thumbnail (and bypass using custom "
+"fields) you can activate this option. Once activcated thumbnail images will be generated "
+"automatically using the first image in your post. The image must be hosted on your own "
+"server."
+msgstr ""
+"По умолчанию, картинки создаются при помощи произвольных полей ( custom fields ). Но если "
+"вы хотите использовать картинки, которые уже находятся в вашем посте и не использовать "
+"произвольные поля, вы можете активировать эту опцию. Когда вы активируете эту опцию, то "
+"будет использоваться первая картинка вашего поста. Картинка должна быть размещена на вашем "
+"сервере."
+
+msgid ""
+"By default thumbnails are not placed on pages (they are only used on posts). However, if "
+"you want to use thumbnails on pages you can! Just enable this option. "
+msgstr ""
+"По умолчанию картинки не размещаются на страницах ( они используются только в постах ). "
+"Однако, если вы хотите использовать картинки на страницах, просто подключите данную опцию. "
+
+msgid ""
+"By default thumbnails are placed at the beginning of your post on single post pages. If you "
+"would like to remove this initial thumbnail image to avoid repetition simply disable this "
+"option. "
+msgstr ""
+"По умолчанию картинки размещены в начале страницы поста. Если вы хотите удалить эту "
+"картинку, избежав повторения, отключите эту опцию. "
+
+msgid ""
+"Canonicalization helps to prevent the indexing of duplicate content by search engines, and "
+"as a result, may help avoid duplicate content penalties and pagerank degradation. Some "
+"pages may have different URLs all leading to the same place. For example domain.com, domain."
+"com/index.html, and www.domain.com are all different URLs leading to your homepage. From a "
+"search engine's perspective these duplicate URLs, which also occur often due to custom "
+"permalinks, may be treated individually instead of as a single destination. Defining a "
+"canonical URL tells the search engine which URL you would like to use officially. The theme "
+"bases its canonical URLs off your permalinks and the domain name defined in the settings "
+"tab of wp-admin."
+msgstr ""
+"Канонизация помогает избежать индексирования одинакового контента поисковыми сервисами, и "
+"как результат, может помочь предотвратить блокирование сайта из-за дублирующегося контента "
+"и ухудшение ранга сайта в поисковой системе. Существуют страницы с разными ссылками, "
+"ведущими на одно и тоже место на сайте, например domain.com, domain.com/index.html, и www."
+"domain.com, все эти ссылки ведут на главную страницу сайта. С точки зрения поисковых "
+"систем, эти дублирующиеся ссылки, которые также часто возникают вследствие использования "
+"произвольных ссылок ( custom permalinks ), могут восприниматься как уникальные ссылки. "
+"Определяя канонический URL, вы указываете поисковой системе какой URL вы хотите "
+"использовать. Тема создает канонический URL из ваших ссылок и имени домена, определенных в "
+"установках в wp-admin."
+
+msgid "Caption"
+msgstr "Заголовок"
+
+msgid "Caption goes here"
+msgstr "Введите сюда заголовок"
+
+msgid "Caption title goes here"
+msgstr "Здесь отображается заголовок"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Center"
+msgstr "По Центру"
+
+msgid "Centered"
+msgstr "По центру"
+
+msgid "Centered Inline Logo"
+msgstr "Разместить по центру встроенный логотип"
+
+msgid ""
+"Check this box if you want to display meta descriptions on category/archive pages. The "
+"description is based off the category description you choose when creating/edit your "
+"category in wp-admin."
+msgstr ""
+"Активируйте эту опцию, если вы хотите отображать meta описание на страницах категорий и "
+"архивов. Описание основано на описании категории, которое задается когда вы создаете или "
+"редактируете категорию в wp-admin."
+
+msgid "Choose an Image"
+msgstr "Выбрать изображение"
+
+msgid "Choose button color"
+msgstr "Выбрать цвет кнопки"
+
+msgid "Choose button type"
+msgstr "Выбрать тип кнопки"
+
+msgid "Choose title autogeneration method"
+msgstr "Выберите метод автогенерации заголовка"
+
+msgid "Choose which items to display in the post info section"
+msgstr "Выводить в разделе информации у записи"
+
+msgid "Choose which items to display in the postinfo section"
+msgstr "Выберите элементы для отображения в секции postinfo"
+
+msgid "Choose yes if you want for automatic slider animation"
+msgstr "Выберите Да, если хотите установить автоматическую анимацию у слайдера"
+
+msgid "Click here to learn more"
+msgstr "Нажмите, чтобы узнать больше"
+
+msgid "Code Integration"
+msgstr "Код интеграции"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Color Pickers Default Palette"
+msgstr "Палитра выбора цвета по умолчанию"
+
+msgid "Color Schemes"
+msgstr "Цветовые схемы"
+
+msgid "Column Layout"
+msgstr "Макет столбца"
+
+msgid "Comments"
+msgstr "Комментарии"
+
+msgid "Content"
+msgstr "Контент"
+
+msgid "Content goes here"
+msgstr "Введите контент сюда"
+
+msgid "Content text or html"
+msgstr "Текст или html"
+
+msgid "Current Color"
+msgstr "Текущий цвет"
+
+msgid "Currently viewing archives from %1$s"
+msgstr "Процесс просмотра архива: %1$s"
+
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+msgid "Custom field Name to be used for description"
+msgstr "Имя произвольного поля используемого для описания"
+
+msgid "Custom field Name to be used for keywords"
+msgstr ""
+"Имя произвольного поля ( custom fields ), которое будет использоваться для ключевых слов"
+
+msgid "Custom field Name to be used for title"
+msgstr "Имя произвольного поля, используемого для заголовков"
+
+msgid "Dark"
+msgstr "Темный"
+
+msgid "Dashed"
+msgstr "Пунктирный"
+
+msgid "Date"
+msgstr "﻿Дата"
+
+msgid "Date format"
+msgstr "Формат даты"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Define a character to separate BlogName and Post title"
+msgstr "Определить символ, который отделяет название сайта от названия поста"
+
+msgid "Define the default color palette for color pickers in the Divi Builder."
+msgstr "Определить цветовую палитру по умолчанию для выбора цвета в Divi Builder."
+
+msgid "Designed by %1$s | Powered by %2$s"
+msgstr "Дизайн: %1$s | Движок: %2$s"
+
+msgid "Disable Footer Credits"
+msgstr "Отключить указание авторства в футере"
+
+msgid "Disable Translations"
+msgstr "Отключить переводы"
+
+msgid "Disable this option to remove the Google Fonts from your Divi Builder Pages."
+msgstr "Отключите этот параметр, чтобы удалить шрифты Google со страниц Divi Builder."
+
+msgid ""
+"Disable this option to remove the Google Maps API script from your Divi Builder Pages. This "
+"may improve compatibility with third party plugins that also enqueue this script. Please "
+"Note: Modules that rely on the Google Maps API in order to function properly, such as the "
+"Maps and Fullwidth Maps Modules, will still be available but will not function while this "
+"option is disabled (unless you manually add Google Maps API script)."
+msgstr ""
+"Отключите эту опцию, чтобы убрать скрипт Google Maps API из страниц Divi Builder. Это может "
+"улучшить совместимость со сторонними плагинами, которым тоже требуется этот скрипт для "
+"работы. Обратите внимание: при отключении этой опции модули, которые опираются на Google "
+"Maps API для корректной работы, например, модули карт и карт на полную ширину, все равно "
+"будут доступны, но не будут работать корректно (пока вы не добавите скрипт Google Maps API "
+"вручную)."
+
+msgid "Disable top tier dropdown menu links"
+msgstr "Отключить верхний ряд ссылок с подссылками в меню"
+
+msgid ""
+"Disable translations if you don't want to display translated theme strings on your site."
+msgstr ""
+"Отключить переводы, если вы не хотите, чтобы отображались переведенные строки на вашем "
+"сайте."
+
+msgid "Disabled"
+msgstr "Отключено"
+
+msgid ""
+"Disabling this option will remove the body code below from your blog. This allows you to "
+"remove the code while saving it for later use."
+msgstr ""
+"Деактивация этой опции удалит код в тэге body на вашем сайте. Таким образом, вы можете "
+"оставить код на будущее, удалив его при этом с сайта."
+
+msgid ""
+"Disabling this option will remove the header code below from your blog. This allows you to "
+"remove the code while saving it for later use."
+msgstr ""
+"Деактивация этой опции удалит код в шапке сайта. Таким образом, вы можете оставить код на "
+"будущее, удалив его при этом с сайта."
+
+msgid ""
+"Disabling this option will remove the single bottom code below from your blog. This allows "
+"you to remove the code while saving it for later use."
+msgstr ""
+"Деактивация этой опции удалит код в нижней части одиночных страниц сайта. Таким образом, вы "
+"можете оставить код на будущее, удалив его при этом с сайта."
+
+msgid ""
+"Disabling this option will remove the single top code below from your blog. This allows you "
+"to remove the code while saving it for later use."
+msgstr ""
+"Деактивация этой опции удалит код в верхней части на одиночных страницах сайта. Таким "
+"образом, вы можете оставить код на будущее, удалив его при этом с сайта."
+
+msgid "Display Home link"
+msgstr "Показывать ссылку на домашнюю страницу"
+
+msgid "Displays About Me Information"
+msgstr "Отображает информацию \"Обо мне\""
+
+msgid "Displays Adsense Ads"
+msgstr "Показывать рекламу Adsense"
+
+msgid "Displays Advertisements"
+msgstr "Отображает рекламу"
+
+msgid "Divi Customizer Settings"
+msgstr "Индивидуальные настройки Divi"
+
+msgid "Divi Library"
+msgstr "Библиотека Divi"
+
+msgid "Divi Page Settings"
+msgstr "Настройки страницы Divi"
+
+msgid ""
+"Divi uses uncombined and unminified CSS files because \"SCRIPT_DEBUG\" constant on wp-"
+"config.php has been set to \"true\". Other plugin can enforce Divi to use uncombined and "
+"unminified CSS files by filtering \"et_load_unminified_styles\" filter as well."
+msgstr ""
+"Divi использует нескомбинированные и не объединенные файлы CSS, потому что константа "
+"«SCRIPT_DEBUG» в wp-config.php была установлена в «true». Другой плагин может принудительно "
+"использовать Divi для использования некомбинированных и унифицированных CSS-файлов путем "
+"фильтрации фильтра «et_load_unminified_styles»."
+
+msgid ""
+"Divi uses uncombined and unminified javascript files because \"SCRIPT_DEBUG\" constant on "
+"wp-config.php has been set to \"true\". Other plugin can enforce Divi to use uncombined and "
+"unminified javascript files by filtering \"et_load_unminified_scripts\" filter as well."
+msgstr ""
+"Divi использует нескомбинированные и унифицированные файлы javascript, потому что константа "
+"«SCRIPT_DEBUG» в wp-config.php была установлена в «true». Другой плагин может заставить "
+"Divi использовать не объединенные и не объединенные файлы javascript, также отфильтровывая "
+"фильтр «et_load_unminified_scripts»."
+
+msgid "Dot Navigation"
+msgstr "Точка навигации"
+
+msgid "Dotted"
+msgstr "Точечный"
+
+msgid "Double"
+msgstr "Двойной"
+
+msgid "Dropdown Menu Animation"
+msgstr "Анимация выпадающего меню"
+
+msgid "Dropdown Menu Background Color"
+msgstr "Цвет фона выпадающего меню"
+
+msgid "Dropdown Menu Line Color"
+msgstr "Цвет линии выпадающего меню"
+
+msgid "Dropdown Menu Text Color"
+msgstr "Цвет текста выпадающего меню"
+
+msgid "ET About Me Widget"
+msgstr "Виджет с информацией \"Обо мне\""
+
+msgid "ET Adsense Widget"
+msgstr "ET Adsense виджет"
+
+msgid "ET Advertisement"
+msgstr "ET Реклама"
+
+msgid "Edit Footer Credits"
+msgstr "Изменение авторства в футере"
+
+msgid "Effect"
+msgstr "Эффект"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Enable Boxed Layout"
+msgstr "Фиксированный макет"
+
+msgid "Enable Divi Gallery"
+msgstr "Галерея Divi"
+
+msgid "Enable Responsive Images"
+msgstr "Включить адаптивные изображения"
+
+msgid "Enable Single Post 468x60 banner"
+msgstr "Активировать 468x60 баннер на страницах записей"
+
+msgid "Enable Vertical Navigation"
+msgstr "Включить вертикальную навигацию"
+
+msgid "Enable body code"
+msgstr "Подключить код, добавленный к тегу <body>"
+
+msgid "Enable canonical URL's"
+msgstr "Подключить канонический URL"
+
+msgid "Enable custom description"
+msgstr "Подключить произвольное описание"
+
+msgid "Enable custom keywords"
+msgstr "Подключить произвольные ключевые слова"
+
+msgid "Enable custom titles"
+msgstr "Подключить произвольные заголовки"
+
+msgid "Enable header code"
+msgstr "Подключить код шапки сайта"
+
+msgid "Enable meta descriptions"
+msgstr "Подключить мета описания"
+
+msgid "Enable single bottom code"
+msgstr "Активировать код в нижней части одиночных страниц"
+
+msgid "Enable single top code"
+msgstr "Активировать код в верхней части одиночных страниц"
+
+msgid ""
+"Enable this if you want to replace the WordPress default gallery with the Divi-style "
+"gallery."
+msgstr "Нажмите здесь если хотите заменить WordPress галерею по умолчанию галереей Divi."
+
+msgid "Enable this option to display Back To Top Button while scrolling"
+msgstr "Подключите эту опцию, чтобы отобразить кнопку \"Вернуться Наверх\" во время прокрутки"
+
+msgid ""
+"Enable this option to get responsive images size generated when uploading images and adding "
+"srcset attribute for images element."
+msgstr ""
+"Включите эту опцию, чтобы получить размер адаптивных изображений, генерируемых при загрузке "
+"изображений и добавлении атрибута srcset для элемента images."
+
+msgid "Enable this option to get the smooth scrolling effect with mouse wheel"
+msgstr "Подключите эту опцию для плавного эффекта прокрутки с помощью колесика мыши"
+
+msgid "Enable this option to make shortcodes respond to various screen sizes"
+msgstr "Подключите эту опцию, чтобы шорткоды адаптировались к различным разрешениям экрана"
+
+msgid "Enable this option to show thumbnails on Index Pages."
+msgstr "Подключить эту опцию, чтобы показывать превью изображений на главных страницах."
+
+msgid "Enabled"
+msgstr "Включено"
+
+msgid ""
+"Enabling this option will display a 468x60 banner ad on the bottom of your post pages below "
+"the single post content. If enabled you must fill in the banner image and destination url "
+"below."
+msgstr ""
+"Активация этой опции отобразит 468x60 баннер в нижней части ваших страниц постов, после "
+"контента поста. Если эта опция активирована, то вам нужно заполнить поля: url картинки и "
+"url ссылки ниже."
+
+msgid "Enqueue Google Maps Script"
+msgstr "Ставить скрипт Google Maps"
+
+msgid "Enter the URL of your Facebook Profile. "
+msgstr "Введите URL Вашего Facebook профиля. "
+
+msgid "Enter the URL of your Google+ Profile. "
+msgstr "Введите URL Вашего Google+ профиля. "
+
+msgid "Enter the URL of your Instagram Profile. "
+msgstr "Введите URL своего профиля в Instagram. "
+
+msgid "Enter the URL of your RSS feed. "
+msgstr "Введите URL Вашей RSS ленты. "
+
+msgid "Enter the URL of your Twitter Profile."
+msgstr "Введите URL Вашего Twitter профиля."
+
+msgid "Exclude categories from the navigation bar"
+msgstr "Исключить категории из меню"
+
+msgid "Exclude pages from the navigation bar"
+msgstr "Исключить страницы из меню"
+
+msgid "Expand"
+msgstr "Расширить"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Facebook Profile Url"
+msgstr "URL профиля Facebook"
+
+msgid "Fade"
+msgstr "Затемнить"
+
+msgid "Fade In"
+msgstr "Постепенное появление"
+
+msgid "Fixed"
+msgstr "Фиксированный"
+
+msgid "Fixed Menu Height"
+msgstr "Высота фиксированного меню"
+
+msgid "Fixed Navigation Bar"
+msgstr "Фиксированная панель навигации"
+
+msgid "Fixed Navigation Settings"
+msgstr "Фиксированные настройки навигации"
+
+msgid "Flip"
+msgstr "Отразить"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+msgid "Footer"
+msgstr "Footer"
+
+msgid "Footer Area"
+msgstr "Зона футера"
+
+msgid "Footer Background Color"
+msgstr "Цвет фона футера"
+
+msgid "Footer Elements"
+msgstr "Элементы Footer"
+
+msgid "Footer Menu"
+msgstr "Меню в футере"
+
+msgid "Footer Menu Active Link Color"
+msgstr "Цвет активной ссылки Footer меню"
+
+msgid "Footer Menu Background Color"
+msgstr "Цвет фона Footer меню"
+
+msgid "Footer Menu Text Color"
+msgstr "Цвет текста Footer меню"
+
+msgid "Fullscreen"
+msgstr "На весь экран"
+
+msgid "Fullwidth"
+msgstr "Полная ширина"
+
+msgid "General"
+msgstr "Общие"
+
+msgid "General Settings"
+msgstr "Общие настройки"
+
+msgid "Google"
+msgstr "Google"
+
+msgid "Google API Key"
+msgstr "Ключ Google API"
+
+msgid "Google Fonts subsets"
+msgstr "Вариации Google шрифтов"
+
+msgid "Google+ Profile Url"
+msgstr "URL профиля Google+"
+
+msgid "Grab the first post image"
+msgstr "Использовать первое изображение записи"
+
+msgid "Green"
+msgstr "Зеленый"
+
+msgid "Groove"
+msgstr "Радиальный"
+
+msgid "Header & Navigation"
+msgstr "Header и навигация"
+
+msgid "Header Elements"
+msgstr "Элементы Header"
+
+msgid "Header Font"
+msgstr "Шрифт заголовков"
+
+msgid "Header Font Style"
+msgstr "Стиль шрифта Header"
+
+msgid "Header Format"
+msgstr "Формат Header"
+
+msgid "Header Letter Spacing"
+msgstr "Расстояние между буквами Header"
+
+msgid "Header Line Height"
+msgstr "Высота строки Header"
+
+msgid "Header Style"
+msgstr "Стиль шапки сайта"
+
+msgid "Header Text Color"
+msgstr "Цвет текста Header"
+
+msgid "Header Text Size"
+msgstr "Размер текста Header"
+
+msgid "Help"
+msgstr "﻿Помощь"
+
+msgid "Here you can add custom css to override or extend default styles."
+msgstr "Здесь вы можете добавить css код, чтобы переопределить css код по умолчанию."
+
+msgid ""
+"Here you can change which character separates your blog title and index page name when "
+"using autogenerated post titles. Common values are | or -"
+msgstr ""
+"Здесь вы можете выбрать какой символ отделяет название сайта от названия страницы архива, "
+"на которой автоматически генерируются заголовки. Самые распространенные значения: | или -"
+
+msgid ""
+"Here you can change which character separates your blog title and post name when using "
+"autogenerated post titles. Common values are | or -"
+msgstr ""
+"Здесь вы можете выбрать символ разделяющий название поста и заголовка сайта, когда название "
+"страниц генерируется автоматически. Самые распространенные значения: | или -"
+
+msgid "Here you can choose Shop Page & Category Page Layout for WooCommerce."
+msgstr "Здесь вы можете выбрать макеты страниц магазина и категории для WooCommerce."
+
+msgid "Here you can choose default sidebar layout"
+msgstr "Здесь вы можете выбрать макет боковой панели по умолчанию"
+
+msgid ""
+"Here you can choose how your titles on index pages are generated. You can change which "
+"order your blog name and index title are displayed, or you can remove the blog name from "
+"the title completely."
+msgstr ""
+"Здесь вы можете выбрать как генерируются заголовки страниц архивов. Вы можете поменять "
+"порядок, в котором отображаются имя сайта и название страницы или вы можете удалить "
+"название сайта полностью."
+
+msgid "Here you can choose to display the Facebook Icon on your homepage. "
+msgstr "Здесь вы можете активировать отображение Facebook иконки на домашней странице. "
+
+msgid "Here you can choose to display the Google+ Icon on your homepage. "
+msgstr "Здесь вы можете активировать отображение Google+ иконки на домашней странице. "
+
+msgid "Here you can choose to display the Instagram Icon on your homepage. "
+msgstr "Здесь вы можете выбрать отображение значка Instagram на своей домашней странице. "
+
+msgid "Here you can choose to display the RSS Icon. "
+msgstr "Здесь вы можете активировать отображение RSS иконки. "
+
+msgid "Here you can choose to display the Twitter Icon. "
+msgstr "Здесь вы можете активировать отображение Twitter иконки. "
+
+msgid ""
+"Here you can choose to remove certain categories from the navigation menu. All categories "
+"marked with an X will not appear in your navigation bar. "
+msgstr ""
+"Здесь вы можете выбрать определенные категории в меню навигации, чтобы удалить их. Все "
+"категории, отмеченные X не будут отображаться в навигационной панели. "
+
+msgid ""
+"Here you can choose to remove certain pages from the navigation menu. All pages marked with "
+"an X will not appear in your navigation bar. "
+msgstr ""
+"Здесь вы можете выбрать определенные страницы в меню навигации, чтобы удалить их. Все "
+"страницы, отмеченные X не будут отображаться в навигационной панели. "
+
+msgid ""
+"Here you can choose to reverse the order that your categories links are displayed. You can "
+"choose between ascending and descending."
+msgstr "Здесь вы можете изменить порядок отображения ссылок категорий."
+
+msgid ""
+"Here you can choose to reverse the order that your pages links are displayed. You can "
+"choose between ascending and descending."
+msgstr "Здесь вы можете изменить порядок отображения ссылок по алфавиту."
+
+msgid "Here you can choose to sort your pages links."
+msgstr "Здесь вы можете выбрать способ сортировки ссылок страниц."
+
+msgid ""
+"Here you can choose which items appear in the postinfo section on pages. This is the area, "
+"usually below the post title, which displays basic information about your post. The "
+"highlighted itmes shown below will appear. "
+msgstr ""
+"Здесь вы можете выбрать какие элементы показывать в postinfo секции на страницах. Обычно "
+"эта информация следует за заголовком и отображает основные сведения. Активные элементы "
+"будут отображаться. "
+
+msgid ""
+"Here you can choose which items appear in the postinfo section on single post pages. This "
+"is the area, usually below the post title, which displays basic information about your "
+"post. The highlighted itmes shown below will appear. "
+msgstr ""
+"Здесь вы можете выбрать какие элементы показывать на странице записи. Обычно эта информация "
+"следует за заголовком и отображает основные сведения о записи. Активные элементы будут "
+"отображаться. "
+
+msgid ""
+"Here you can designate how many WooCommerce products are displayed on the archive page. "
+"This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+"Здесь вы можете указать, сколько продуктов WooCommerce отображается на странице архива. Эта "
+"опция работает независимо от Настройки> Параметры чтения в wp-admin."
+
+msgid ""
+"Here you can designate how many recent articles are displayed on the Archive pages. This "
+"option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+"Здесь вы можете задавать количество постов, отображаемых на странице архивов. Эта опция "
+"работает независимо от опции определения кол-ва постов из Settings > Reading в wp-admin."
+
+msgid ""
+"Here you can designate how many recent articles are displayed on the Category page. This "
+"option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+"Здесь вы можете задавать количество постов, отображаемых на странице категории. Эта опция "
+"работает независимо от опции определения кол-ва постов из Settings > Reading в wp-admin."
+
+msgid ""
+"Here you can designate how many recent articles are displayed on the Search results pages. "
+"This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+"Здесь вы можете задавать количество постов, отображаемых на странице поиска. Эта опция "
+"работает независимо от опции определения кол-ва постов из Settings > Reading в wp-admin."
+
+msgid ""
+"Here you can designate how many recent articles are displayed on the Tag pages. This option "
+"works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+"Здесь вы можете задавать количество постов, отображаемых на странице тэгов. Эта опция "
+"работает независимо от опции определения кол-ва постов из Settings > Reading в wp-admin."
+
+msgid "Here you can disable automatic memory limit increase."
+msgstr "Здесь вы можете включить автоматическое увеличение лимита памяти."
+
+msgid "Here you can provide 468x60 banner destination url"
+msgstr "Здесь вам нужно указать ссылку на 468x60 баннер"
+
+msgid "Here you can provide 468x60 banner image url"
+msgstr "Здесь вам нужно указать url 468x60 баннера"
+
+msgid "Hex Value"
+msgstr "Шестнадцатеричное значение (цвета)"
+
+msgid "Hide"
+msgstr "Скрыть"
+
+msgid "Hide Logo Image"
+msgstr "Скрыть логотип"
+
+msgid "Hide Nav Before Scroll"
+msgstr "Скрыть навигацию перед прокруткой"
+
+msgid "Hide Navigation Until Scroll"
+msgstr "Скрыть навигацию до прокрутки"
+
+msgid "Hide empty categories"
+msgstr "Спрятать пустые категории"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Homepage SEO"
+msgstr "SEO: домашняя страница"
+
+msgid "Homepage custom title (if enabled)"
+msgstr "Произвольный заголовок на домашней странице  (если подключено)"
+
+msgid "Homepage meta description (if enabled)"
+msgstr "Мета описание на домашней странице  (если подключено)"
+
+msgid "Homepage meta keywords (if enabled)"
+msgstr "Мета ключевые слова на домашней странице  (если подключено)"
+
+msgid "Icon"
+msgstr "Иконка"
+
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+msgid "Icon Placement"
+msgstr "Размещение значка"
+
+msgid "If custom titles are disabled, choose autogeneration method"
+msgstr "Если произвольные заголовки отключены, выберите метод автогенерации"
+
+msgid ""
+"If you are not using cutsom post titles you can still have control over how your titles are "
+"generated. Here you can choose which order you would like your post title and blog name to "
+"be displayed, or you can remove the blog name from the title completely."
+msgstr ""
+"Если вы не используете произвольные заголовки вы все равно можете контролировать как ваши "
+"заголовки генерируются. Здесь вы можете выбрать порядок отображения заголовка поста и "
+"названия сайта или вы можете полностью удалить название сайта из заголовка страницы."
+
+msgid ""
+"If you are not using cutsom post titles you can still have control over hw your titles are "
+"generated. Here you can choose which order you would like your post title and blog name to "
+"be displayed, or you can remove the blog name from the title completely."
+msgstr ""
+"Если вы не используете произвольные заголовки, вы все равно можете контролировать каким "
+"образом генерируются названия страниц. Здесь вы можете выбрать порядок отображения "
+"заголовка поста и названия сайта, или вы можете совсем удалить название сайта из имени "
+"страницы."
+
+msgid "If you don't want to display some banners - leave approptiate fields blank"
+msgstr ""
+"Если вы не хотите показывать некоторые баннеры - оставьте соответствующие поля пустыми"
+
+msgid ""
+"If you have enabled custom titles you can add your custom title here. Whatever you type "
+"here will be placed between the < title >< /title > tags in header.php"
+msgstr ""
+"Если вы активировали произвольные заголовки, вы можете добавить ваш произвольный заголовок "
+"сюда. Все, что вы напишите сюда будет размещено между тэгами < title >< /title > в файле "
+"header.php"
+
+msgid "If you have enabled meta descriptions you can add your custom description here."
+msgstr "Если у вас активированы описания meta вы можете добавить описание сюда."
+
+msgid ""
+"If you have enabled meta keywords you can add your custom keywords here. Keywords should be "
+"separated by comas. For example: wordpress,themes,templates,elegant"
+msgstr ""
+"Если у вас активированы ключевые слова meta, вы можете добавить ключевые слова сюда. "
+"Ключевые слова должны быть разделены запытями. Например: wordpress,themes,templates,elegant"
+
+msgid ""
+"If you would like categories to be displayed in your navigationbar that don't have any "
+"posts in them then disable this option. By default empty categories are hidden"
+msgstr ""
+"Если вы хотите, чтобы категории в которых нет постов отображались в меню, отключите эту "
+"опцию. По умолчанию пустые категории скрыты"
+
+msgid ""
+"If you would like to add a meta description to your post you can do so using custom fields. "
+"This option must be enabled for descriptions to be displayed on post pages. You can add "
+"your meta description using custom fields based off the custom field name you define below."
+msgstr ""
+"Если вы хотите добавить описание meta в ваш пост, вы можете сделать это, используя "
+"произвольные поля. Эта опция должна быть подключена для этого. Вы можете добавить ваше meta "
+"описание используя произвольные поля на основании произвольного поля Название, которое вы "
+"определили ниже."
+
+msgid ""
+"If you would like to add meta keywords to your post you can do so using custom fields. This "
+"option must be enabled for keywords to be displayed on post pages. You can add your meta "
+"keywords using custom fields based off the custom field name you define below."
+msgstr ""
+"Если вы хотите добавить ключевые слова к вашему посту, вы можете использовать произвольные "
+"поля для этого. Эта опция должна быть включена чтобы применить ключевые слова к страницам "
+"постов. Вы можете добавить ключевые слова, используя произвольные поля, на основании "
+"значения в произвольном поле Имя, определенном ниже."
+
+msgid ""
+"If you would like to remove the dropdown menus from the categories navigation bar disable "
+"this feature."
+msgstr "Если вы хотите удалить выпадающие меню из меню категорий, отключите эту опцию."
+
+msgid ""
+"If you would like to remove the dropdown menus from the pages navigation bar disable this "
+"feature."
+msgstr "Если вы хотите удалить выпадающие меню в панели навигации, отключите эту опцию."
+
+msgid "If you would like to use your own custom logo image click the Upload Image button."
+msgstr ""
+"Если вы хотите использовать ваш собственный логотип, нажмите кнопку Загрузить изображение."
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Image Height"
+msgstr "Высота изображения"
+
+msgid "Image Url"
+msgstr "Url изображения"
+
+msgid "Image Width"
+msgstr "Ширина изображения"
+
+msgid "Image doesn't exist"
+msgstr "Изображение не существует"
+
+msgid ""
+"In some cases users will want to create parent categories or links as placeholders to hold "
+"a list of child links or categories. In this case it is not desirable to have the parent "
+"links lead anywhere, but instead merely serve an organizational function. Enabling this "
+"options will remove the links from all parent pages/categories so that they don't lead "
+"anywhere when clicked."
+msgstr ""
+"В некоторых случаях, пользователи хотят использовать родительские категории или ссылки, "
+"чтобы определить ссылку, из которой выпадает меню. В этом случае нежелательно, чтобы эта "
+"ссылка была не пустой. Активируя эту опцию, вы уберете все ссылки с родительских страниц и "
+"категорий, чтобы они никуда не вели."
+
+msgid "Index Page SEO"
+msgstr "SEO: главная страница"
+
+msgid "Input 468x60 adsense code"
+msgstr "Укажите 468x60 код AdSense"
+
+msgid "Input 468x60 advertisement banner image"
+msgstr "Укажите путь к изображению 468x60 баннера"
+
+msgid "Input 468x60 advertisement destination url"
+msgstr "Укажите ссылку для 468x60 баннера"
+
+msgid "Inset"
+msgstr "Внутренний"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Instagram Profile Url"
+msgstr "URL профиля Instagram"
+
+msgid "Italic"
+msgstr "Курсив"
+
+msgid "Join Now"
+msgstr "Подписаться сейчас"
+
+msgid "Layout"
+msgstr "Макет"
+
+msgid "Layout Settings"
+msgstr "Настройки макета"
+
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий к %s"
+
+msgid "Left"
+msgstr "Слева"
+
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+msgid "Left to Right"
+msgstr "Слева направо"
+
+msgid "Letter Spacing"
+msgstr "Расстояние между буквами"
+
+msgid "Light"
+msgstr "Светлый"
+
+msgid "Link"
+msgstr "Ссылка"
+
+msgid "Link text"
+msgstr "Текст ссылки"
+
+msgid "Login"
+msgstr "Войти"
+
+msgid "Logo"
+msgstr "Логотип"
+
+msgid "Logo Max Height"
+msgstr "Максимальная Высота Логотипа"
+
+msgid "Make Full Width"
+msgstr "По всей ширине"
+
+msgid "Manage Un-widgetized Advertisements"
+msgstr "Рекламные блоки вне виджетов"
+
+msgid "Member Login"
+msgstr "Вход для зарегистрированных пользователей"
+
+msgid "Memory Limit Increase"
+msgstr "Увеличение лимита памяти"
+
+msgid "Menu Height"
+msgstr "Высота Меню"
+
+msgid "Menu Link Color"
+msgstr "Цвет ссылки меню"
+
+msgid "Menu Text Size"
+msgstr "Размер текста меню"
+
+msgid "Menu Top Margin"
+msgstr "Верхний отступ меню"
+
+msgid "Menu Width"
+msgstr "Ширина меню"
+
+msgid "Meta Font Style"
+msgstr "Стиль шрифта Meta"
+
+msgid "Meta Letter Spacing"
+msgstr "Расстояние между буквами Meta"
+
+msgid "Meta Line Height"
+msgstr "Высота строки Meta"
+
+msgid "Meta Text Size"
+msgstr "Размер текста Meta"
+
+msgid "Minify And Combine CSS Files"
+msgstr "Сократить и объединить файлы CSS"
+
+msgid "Minify And Combine Javascript Files"
+msgstr "Сократить и объединить файлы Javascript"
+
+msgid "Mobile Menu"
+msgstr "Мобильное меню"
+
+msgid "Mobile Styles"
+msgstr "Мобильные стили"
+
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые Комментарии <span class=\"meta-nav\">&rarr;</span>"
+
+msgid "Next"
+msgstr "Следующий"
+
+msgid "Next Entries &raquo;"
+msgstr "Следующие Записи &raquo;"
+
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No Animation"
+msgstr "Без анимации"
+
+msgid "No Repeat"
+msgstr "Без повтора"
+
+msgid "No Results Found"
+msgstr "Ничего не найдено"
+
+msgid "No Sidebar"
+msgstr "Нет боковой панели"
+
+msgid "No available options."
+msgstr "Нет доступных вариантов."
+
+msgid "Note: Color settings set above should be applied to the Default color scheme."
+msgstr ""
+"Примечание: Настройки цвета, выбранные выше, будут применены к основной цветовой схеме."
+
+msgid "Number of Posts displayed on Archive pages"
+msgstr "Количество постов, отображающихся на страницах архива"
+
+msgid "Number of Posts displayed on Category page"
+msgstr "Количество постов, отображающихся на странице категории"
+
+msgid "Number of Posts displayed on Search pages"
+msgstr "Количество постов, отображающихся на страницах поиска"
+
+msgid "Number of Posts displayed on Tag pages"
+msgstr "Количество постов, отображающихся на страницах тэгов"
+
+msgid "Number of Products displayed on WooCommerce archive pages"
+msgstr "Количество продуктов, отображающихся на страницах архива WooCommerce"
+
+msgid "Number of dropdown tiers shown"
+msgstr "Количество уровней выпадающего меню"
+
+msgid "Off"
+msgstr "Выкл"
+
+msgid "On"
+msgstr "Вкл"
+
+msgid "Only Show Icon on Hover"
+msgstr "Показывать значок только при наведении курсора"
+
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "на"
+
+msgid "Open in a new window"
+msgstr "Открывать ссылки в новом окне"
+
+msgid "Open link in new window"
+msgstr "Открыть ссылку в новом окне"
+
+msgid "Options"
+msgstr "Опции"
+
+msgid "Orange"
+msgstr "Оранжевый"
+
+msgid "Order Category Links by Ascending/Descending"
+msgstr "Упорядочить ссылки категорий по алфавиту"
+
+msgid "Order Pages Links by Ascending/Descending"
+msgstr "Упорядочить ссылки по алфавиту"
+
+msgid "Outset"
+msgstr "Внешний"
+
+msgid "Page Layout"
+msgstr "Макет страницы"
+
+msgid "Pages"
+msgstr "Страницы"
+
+msgid "Pages:"
+msgstr "Страницы:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Password Protected"
+msgstr "Страница защищена паролем"
+
+msgid "Password: "
+msgstr "Пароль: "
+
+msgid "Paste image url here, if you chose \"images\" slider type"
+msgstr "Вставьте url изображения здесь, если вы выбрали вид слайдера \"изображения\""
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+msgid "Pink"
+msgstr "Розовый"
+
+msgid "Place Thumbs on Pages"
+msgstr "Добавлять превью к изображениям на страницах"
+
+msgid "Place Thumbs on Posts"
+msgstr "Поместить превью изображений в записи"
+
+msgid "Place your adsense code here."
+msgstr "Поместите adsense код здесь."
+
+msgid "Post"
+msgstr "Запись"
+
+msgid "Post Title"
+msgstr "Заголовок поста"
+
+msgid "Post info section"
+msgstr "Раздел информации о записи"
+
+msgid "Posted on"
+msgstr "Опубликовано"
+
+msgid "Previous"
+msgstr "Предыдущий"
+
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+msgid "Primary Menu Background Color"
+msgstr "Цвет фона первичного меню"
+
+msgid "Primary Menu Bar"
+msgstr "Первичная строка меню"
+
+msgid "Primary Menu Link Color"
+msgstr "Ссылки начального меню"
+
+msgid "Product Content"
+msgstr "Контент продукта"
+
+msgid "Project Navigation"
+msgstr "Навигация проекта"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "RSS Icon Url"
+msgstr "URL RSS ленты"
+
+msgid "Ratings"
+msgstr "Рейтинги"
+
+msgid "Read Divi Documentation"
+msgstr "Читать Divi документацию"
+
+msgid "Red"
+msgstr "Красный"
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "Reset to Defaults"
+msgstr "Сбросить"
+
+msgid "Responsive shortcodes"
+msgstr "Адаптивные ( responsive ) шорткоды"
+
+msgid "Ridge"
+msgstr "Волнистый"
+
+msgid "Right"
+msgstr "Справа"
+
+msgid "Right Sidebar"
+msgstr "Правый сайдбар"
+
+msgid "Right to Left"
+msgstr "Справа налево"
+
+msgid "Role Editor"
+msgstr "Роль Редактора"
+
+msgid "Row Height"
+msgstr "Высота строки"
+
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+msgid "Scroll"
+msgstr "Прокрутка"
+
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+msgid "Search Bar Background Color"
+msgstr "Цвет фона Search Bar"
+
+msgid "Search Bar Text Color"
+msgstr "Цвет текста Search Bar"
+
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+msgid "Search for:"
+msgstr "Поиск:"
+
+msgid "Search results for \"%s\""
+msgstr "Результаты поиска \"%s\""
+
+msgid "Secondary Menu"
+msgstr "Меню второго уровня"
+
+msgid "Secondary Menu Background Color"
+msgstr "Фон вторичного меню"
+
+msgid "Secondary Menu Bar"
+msgstr "Вторичная строка меню"
+
+msgid "Secondary Menu Link Color"
+msgstr "Ссылки вторичное меню"
+
+msgid "Section Height"
+msgstr "Высота раздела"
+
+msgid "Select"
+msgstr "Выбрать"
+
+msgid "Select Animation Effect"
+msgstr "Выбрать эффект анимации"
+
+msgid "Select Icon"
+msgstr "Выбрать значок"
+
+msgid "Select Page"
+msgstr "Выбрать страницу"
+
+msgid "Select Slider Type here"
+msgstr "Выбрать тип слайдера здесь"
+
+msgid "Select between expanded and closed state"
+msgstr "Выберите открытый или закрытый вид"
+
+msgid "Select yes if the link should be opened in a new window"
+msgstr "Выберите Да, если ссылка должна быть открыта в новом окне"
+
+msgid "Set As Logo"
+msgstr "Выбрать для Логотипа"
+
+msgid "Shop Page & Category Page Layout for WooCommerce"
+msgstr "Макеты страницы магазина и страницы категории для WooCommerce"
+
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Show Facebook Icon"
+msgstr "Показать Facebook иконку"
+
+msgid "Show Google+ Icon"
+msgstr "Показать Google+ иконку"
+
+msgid "Show Instagram Icon"
+msgstr "Показать Instagram иконку"
+
+msgid "Show RSS Icon"
+msgstr "Показать RSS иконку"
+
+msgid "Show Search Icon"
+msgstr "Иконка поиска"
+
+msgid "Show Social Icons"
+msgstr "Иконки социальных сетей"
+
+msgid "Show Thumbs on Index pages"
+msgstr "Показывать превью изображений на главных страницах"
+
+msgid "Show Top Bar"
+msgstr "Показать Top Bar"
+
+msgid "Show Twitter Icon"
+msgstr "Показать Twitter иконку"
+
+msgid "Show Vk Icon"
+msgstr "Показать VK иконку"
+
+msgid "Show comments on pages"
+msgstr "Показывать комментарии на страницах"
+
+msgid "Show comments on posts"
+msgstr "Показывать комментарии в записях"
+
+msgid "Show dropdown menus"
+msgstr "Показывать выпадающие меню"
+
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+msgid "Sidebar Layout"
+msgstr "Макет боковой панели"
+
+msgid "Sidebar Width"
+msgstr "Ширина боковой панели"
+
+msgid "Single Page Layout"
+msgstr "Макет страницы"
+
+msgid "Single Post Layout"
+msgstr "Макет записи"
+
+msgid "Single Post Page SEO"
+msgstr "SEO: страница записи"
+
+msgid "Site Identity"
+msgstr "Свойство сайта"
+
+msgid "Skills"
+msgstr "Навыки"
+
+msgid "Slide"
+msgstr "Слайд"
+
+msgid "Slide In"
+msgstr "Слайд"
+
+msgid "Slide In & Fullscreen Header Settings"
+msgstr "Установки для типов хэдера с эффектом слайда и на весь экран"
+
+msgid "Slider Type"
+msgstr "Тип слайдера"
+
+msgid "Smooth Scrolling"
+msgstr "Плавная прокрутка"
+
+msgid "Social Icon Color"
+msgstr "Цвет социальной иконки"
+
+msgid "Social Icon Size"
+msgstr "Размер социальной иконки"
+
+msgid "Solid"
+msgstr "Сплошной"
+
+msgid ""
+"Sometimes when using the CSS ID of a section to link directly to it from another page, the "
+"page's final scroll position can be inaccurate. Enable this option to use an alternative "
+"method for scrolling to anchors which can be more accurate than the default method in some "
+"cases."
+msgstr ""
+"Иногда при использовании CSS ID раздела в ссылке с другой страницы конечное положение "
+"экрана может быть неточным. Включите эту опцию для использования альтернативного способа "
+"прокрутки до якоря, который в некоторых случаях может давать более точный результат, чем "
+"опция по умолчанию."
+
+msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
+msgstr "Сортировать ссылки категорий по Name/ID/Slug/Count/Term Group"
+
+msgid "Sort Pages Links"
+msgstr "Сортировать ссылки страниц"
+
+msgid "State"
+msgstr "Вид"
+
+msgid "Stretch Background Image"
+msgstr "Растянуть фоновое изображение"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Submit Comment"
+msgstr "Оставить комментарий"
+
+msgid "Submit a Comment"
+msgstr "Оставить комментарий"
+
+msgid "Tab Content"
+msgstr "Контент таба"
+
+msgid "Tab Text"
+msgstr "Текст таба"
+
+msgid "Tablet"
+msgstr "Планшет"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Text Color"
+msgstr "Цвет текста"
+
+msgid "Text Size"
+msgstr "Размер текста"
+
+msgid ""
+"The Maps module uses the Google Maps API and requires a valid Google API Key to function. "
+"Before using the map module, please make sure you have added your API key here. Learn more "
+"about how to create your Google API Key <a target=\"_blank\" href=\"%1$s\">here</a>."
+msgstr ""
+"Модуль карт использует Google Maps API и требует верный ключ Google API для корректной "
+"работы. Перед использованием модуля убедитесь, что вы добавили сюда свой ключ API. Узнайте "
+"подробности о создании своего ключа Google API Key <a target=\"_blank\" href=\"%1$s"
+"\">здесь</a>."
+
+msgid ""
+"The page you requested could not be found. Try refining your search, or use the navigation "
+"above to locate the post."
+msgstr ""
+"Запрашиваемая страница не найдена. Попробуйте уточнить параметры поиска или используйте "
+"меню для нахождения страницы."
+
+msgid "Theme Accent Color"
+msgstr "Основной цвет темы"
+
+msgid "Theme Customizer"
+msgstr "Настройщик темы"
+
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+msgid ""
+"This option allows you to change how your dates are displayed. For more information please "
+"refer to the WordPress codex here:<a href='http://codex.wordpress.org/"
+"Formatting_Date_and_Time' target='_blank'>Formatting Date and Time</a>"
+msgstr ""
+"Эта опция позволяет изменить способ отображения дат. Для получения более подробной "
+"информации, пожалуйста, обратитесь к кодексу WordPress здесь:<a href='http://codex."
+"wordpress.org/Formatting_Date_and_Time' target='_blank'>Форматирование даты и времени</a>"
+
+msgid ""
+"This options allows you to control how many teirs your pages dropdown menu has. Increasing "
+"the number allows for additional menu items to be shown."
+msgstr ""
+"Эта опция позволяет контролировать, количество уровней вашего выпадающего меню. Увеличение "
+"количества уровней позволяет отображать дополнительные элементы меню."
+
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Эта страница защищена паролем. Введите пароль для просмотра комментариев."
+
+msgid "This will enable Google Fonts for Non-English languages."
+msgstr "Активировать поддержку Google шрифтов для остальных языков, помимо английского."
+
+msgid "This will enable the use of excerpts in posts or pages."
+msgstr "Это позволит использовать выдержки в постах или на страницах."
+
+msgid ""
+"This will return all of the settings throughout the options page to their default values. "
+"<strong>Are you sure you want to do this?</strong>"
+msgstr ""
+"Это вернет все настройки на странице параметров к их значениям по умолчанию. <strong>Вы "
+"уверены, что хотите это сделать?</strong>"
+
+msgid "Tile"
+msgstr "Заполнить по горизонтали и вертикали"
+
+msgid "Tile Horizontally"
+msgstr "Заполнить по горизонтали"
+
+msgid "Tile Vertically"
+msgstr "Заполнить по вертикали"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "To view this protected post, enter the password below"
+msgstr "Чтобы просмотреть защищенную страницу. введите пароль ниже"
+
+msgid "Top"
+msgstr "Вверху"
+
+msgid "Top Bar Text Color"
+msgstr "Цвет текста Top Bar"
+
+msgid "Top Bar Text Size"
+msgstr "Размер текста Top Bar"
+
+msgid "Top to Bottom"
+msgstr "Сверху вниз"
+
+msgid "Trackbacks/Pingbacks"
+msgstr "Трекбеки/Пинги"
+
+msgid "Tweet"
+msgstr "Твитнуть"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Twitter Profile Url"
+msgstr "URL профиля Twitter"
+
+msgid "Type"
+msgstr "Вид"
+
+msgid "Type of the box"
+msgstr "Вид контейнера"
+
+msgid "Typography"
+msgstr "Типография"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Underline"
+msgstr "Подчеркивание"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "Uppercase"
+msgstr "Прописные"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Use Background Color"
+msgstr "Использовать цвет фона"
+
+msgid "Use Custom Sidebar Width"
+msgstr "Используйте Пользовательские Панели Ширина"
+
+msgid "Use Google Fonts"
+msgstr "Используйте Google Fonts"
+
+msgid "Use Relative Image Paths"
+msgstr "Использовать относительные пути к изображениям"
+
+msgid "Use combined and minified CSS file to speed up your site's page load."
+msgstr ""
+"Используйте комбинированный и уменьшенный CSS-файл для ускорения загрузки страницы вашего "
+"сайта."
+
+msgid "Use combined and minified javascript file to speed up your site's page load."
+msgstr ""
+"Используйте объединенный и уменьшенный файл JavaScript, чтобы ускорить загрузку страницы "
+"вашего сайта."
+
+msgid "Use excerpts when defined"
+msgstr "Использовать выдержки записей, если они определены"
+
+msgid "Use resizing"
+msgstr "Использовать автоматическое изменение размера картинки"
+
+msgid "Used for icon button type"
+msgstr "Используется для типа иконки кнопки"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Username: "
+msgstr "Имя пользователя: "
+
+msgid "Vertical Menu Orientation"
+msgstr "Вертикальная ориентация меню"
+
+msgid "Vertically Centered"
+msgstr "Вертикально по центру"
+
+msgid "Vk Profile Url"
+msgstr "URL профиля VK"
+
+msgid "Watch video tutorials"
+msgstr "Посмотрите обучающие видео"
+
+msgid "Website Content Width"
+msgstr "Ширина контента сайта"
+
+msgid "Website Gutter Width"
+msgstr "Расстояние между столбцами сайта"
+
+msgid ""
+"Welcome to Divi! Before diving in to your new theme, please visit the <a style=\"color: "
+"#fff; font-weight: bold;\" href=\"%1$s\" target=\"_blank\">Divi Documentation</a> page for "
+"access to dozens of in-depth tutorials."
+msgstr ""
+"Добро пожаловать в Divi! Перед погружением в новую тему, пожалуйста, посетите <a style="
+"\"color: #fff; font-weight: bold;\" href=\"%1$s\" target=\"_blank\">Нашу справку</a> для "
+"доступа к десяткам обучающих материалов."
+
+msgid ""
+"When you define your keywords using custom fields you should use this value for the custom "
+"field Name. The Value of your custom field should be the meta keywords you would like to "
+"use, separated by comas."
+msgstr ""
+"Когда вы определяете ключевые слова с помощью произвольных полей ( custom fields ), вы "
+"должны использовать это значение для имени произвольного поля ( custom field Name ). "
+"Значение вашего произвольного поля должно содержать ключевые слова, разделенные запятой."
+
+msgid ""
+"When you define your meta description using custom fields you should use this value for the "
+"custom field Name. The Value of your custom field should be the custom description you "
+"would like to use."
+msgstr ""
+"Когда вы определяете описание meta, используя произвольные поля, вам нужно использовать это "
+"значение для имени произвольного поля. Значение произвольного поля будет описание страницы, "
+"которое вы хотите использовать."
+
+msgid ""
+"When you define your title using custom fields you should use this value for the custom "
+"field Name. The Value of your custom field should be the custom title you would like to use."
+msgstr ""
+"Когда вы определяете ваш заголовок с помощью произвольных полей ( custom fields ), вы "
+"должны использовать это значение для имени произвольного поля ( custom field Name ). "
+"Значение вашего произвольного поля должно быть названием страницы, которое вы хотите "
+"использовать."
+
+msgid "Widget Bullet Color"
+msgstr "Цвет маркира списка у виджита"
+
+msgid "Widget Header Color"
+msgstr "Цвет Header виджета"
+
+msgid "Widget Link Color"
+msgstr "Цвет ссылки виджета"
+
+msgid "Widget Text Color"
+msgstr "Цвет текста виджета"
+
+msgid "Widgets"
+msgstr "Виджеты"
+
+msgctxt "WooCommerce items number"
+msgid "%1$s Item"
+msgid_plural "%1$s Items"
+msgstr[0] "%1$s шт"
+msgstr[1] "%1$s шт"
+msgstr[2] "%1$s шт"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid ""
+"You can disable this option if you want to remove the comments and comment form from single "
+"post pages. "
+msgstr ""
+"Вы можете отключить эту опцию, чтобы не показывать форму добавления комментариев и сами "
+"комментарии на странице постов. "
+
+msgid "You don't have pages"
+msgstr "У вас нет страниц"
+
+msgctxt "clear static resources"
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "comments"
+msgstr "комментарии"
+
+msgctxt "documentation links"
+msgid "Support"
+msgstr "Служба поддержки"
+
+msgctxt "general options"
+msgid "General"
+msgstr "Основное"
+
+msgctxt "integrate third-party code"
+msgid "Integration"
+msgstr "Интеграция"
+
+msgctxt "navigation menu"
+msgid "Navigation"
+msgstr "Навигация"
+
+msgctxt "page/post"
+msgid "Layout"
+msgstr "Макет"
+
+msgctxt "search engine optimization"
+msgid "SEO"
+msgstr "SEO"
+
+msgid "settings reset."
+msgstr "сброс настроек."
+
+msgid "settings saved."
+msgstr "настройки сохранены."
+
+msgctxt "site ads placement areas"
+msgid "Ads"
+msgstr "Реклама"
+
+msgctxt "site color scheme"
+msgid "Colorization"
+msgstr "Раскраска"
+
+msgctxt "theme updates"
+msgid "Updates"
+msgstr "Обновления"
+
+msgid "you don't have sufficient permissions to access this page"
+msgstr "у вас нет достаточных разрешений для доступа к этой странице"
+
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please %3$s%5$scheck your "
+"page%6$s%4$s and make sure that everything has imported correctly. If it did, you can "
+"deactivate the %3$sOne Click Demo Import%4$s plugin, because it has done its job.%7$s"
+msgstr ""
+"%1$s%3$sВсе готово!%4$s%2$sИмпорт демо завершен. Пожалуйста, %3$s%5$sпроверьте свою страницу"
+"%6$s%4$s и убедитесь, что все импортировано правильно.%7$s"
+
+msgid ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created and maintained by "
+"%3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr " "
+
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore details about "
+"the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+"%1$sИмпорт демо завершен, но были некоторые ошибки при импорте.%2$sБолее подробную "
+"информацию об ошибках можно найти в этом файле %3$s%5$sфайле логов%6$s%4$s%7$s"
+
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might experience "
+"server timeout errors.%s"
+msgstr ""
+"%sВнимание: ваш сервер использует %sPHP save mode%s. Это означает, что могут возникнуть "
+"ошибки тайм-аута сервера.%s"
+
+msgid "%sYour user role isn't high enough. You don't have permission to import demo data.%s"
+msgstr "%s У вас нет доступа для импорта демо-данных. %S"
+
+msgid "All"
+msgstr "Все"
+
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr "Произошла ошибка при извлечении файла из: %1$s%2$s%3$s!%4$sПричина: %5$s - %6$s."
+
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file from path: %s%s."
+msgstr ""
+"Произошла ошибка при чтении файла с вашего сервера! Попытка чтения файла из директории: %s"
+"%s."
+
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your server (could not "
+"retrieve WP filesystem credentials)!"
+msgstr ""
+"Произошла ошибка при получении разрешений на чтение / запись на ваш сервер (не удалось "
+"получить учетные данные файловой системы WP)!"
+
+msgid "An error occurred while writing file to your server! Tried to write a file to: %s%s."
+msgstr "Произошла ошибка при записи файла на ваш сервер! Пытались записать файл в: %s%s."
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "At least one of the possible options should be set! Check them with --help"
+msgstr ""
+"По крайней мере, один из возможных вариантов должен быть установлен! Проверьте их с помощью "
+"--help"
+
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr "Прежде чем начать, убедитесь, что все необходимые плагины активированы."
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Choose a DAT file for customizer import:"
+msgstr "Выберите файл DAT для импорта в настройщик:"
+
+msgid "Choose a JSON file for Redux import:"
+msgstr "Выберите файл JSON для импорта Redux:"
+
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr "Выберите файл WIE или JSON для импорта виджета:"
+
+msgid "Choose a XML file for content import:"
+msgstr "Выберите файл XML для импорта контента:"
+
+msgid "Content file was not uploaded. Error: %s"
+msgstr "Файл контента не был загружен. Ошибка: %s"
+
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr "Предоставленный файл для импорта контента не существует! Пропуск этого импорта!"
+
+msgid "Content import finished!"
+msgstr "Импорт контента завершен!"
+
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "Файл кастомайзера не был загружен. Ошибка: % s"
+
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr "Предоставленный файл импорта кастомайзера не существует! Пропуск этого импорта!"
+
+msgid "Customizer settings import finished!"
+msgstr "Импорт настроек кастомайзера завершен!"
+
+msgid "Customizer settings imported successfully!"
+msgstr "Настройки кастомайзера успешно импортированы!"
+
+msgid "Demo import files could not be retrieved!"
+msgstr "Демо-файлы для импорта не могут быть восстановлены!"
+
+msgid "Demo import files retrieved successfully!"
+msgstr "Демо-файлы для импорта успешно получены!"
+
+msgid "Downloaded files"
+msgstr "Загруженные файлы"
+
+msgid "Enter the Redux option name:"
+msgstr "Введите имя опции Redux:"
+
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "Ошибка: отсутствует файл импорта кастомайзера! Путь к файлу: %s"
+
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make sure to use the "
+"correct customizer import file."
+msgstr ""
+"Ошибка: файл импорта кастомайзера имеет неправильный формат. Убедитесь, что вы используете "
+"правильный файл импорта кастомайзера."
+
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can only import "
+"customizer settings for the same theme or a child theme."
+msgstr ""
+"Ошибка: файл импорта кастомайзера не подходит для текущей темы. Вы можете импортировать "
+"настройки кастомайзера только для той же темы или дочерней темы."
+
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+"Ошибка: не удалось прочитать данные импорта виджета. Пожалуйста, попробуйте другой файл."
+
+msgid "Error: Widget import file could not be found."
+msgstr "Ошибка: файл импорта виджета не найден."
+
+msgid "Executing action: %s ..."
+msgstr "Выполнение действия: %s..."
+
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s%1$sCustomizer file "
+"= %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+"Информация о файлах: %1$sURL Сайта = %2$s%1$sФайл содержимого = %3$s%1$sФайл виджета = %4$s"
+"%1$sФайл кастомайзера = %5$s%1$sRedux фаайлы:%1$s%6$s"
+
+msgid "Here are the predefined demo imports:"
+msgstr "Вот предопределенный импорт демо:"
+
+msgid "Import"
+msgstr "Импорт"
+
+msgid "Import Demo Data"
+msgstr "Выбрать шаблон"
+
+msgid ""
+"Import your content, widgets and theme settings with one click. Theme authors! Enable "
+"simple demo import for your theme demo data."
+msgstr "Импортируйте контент, виджеты и настройки темы одним щелчком мыши."
+
+msgid "Imported"
+msgstr "Импортировано"
+
+msgid "Imported to Inactive"
+msgstr "Импортировано в Неактивный"
+
+msgid "Importing Redux settings"
+msgstr "Импорт настроек Redux"
+
+msgid "Importing content"
+msgstr "Импортируем контента"
+
+msgid "Importing content (this might take a while)..."
+msgstr "Импортируем контент (это может занять некоторое время) ..."
+
+msgid "Importing customizer settings"
+msgstr "Импорт настроек кастомайзера"
+
+msgid "Importing customizer settings..."
+msgstr "Импорт настроек кастомайзера..."
+
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the easiest way to setup "
+"your theme."
+msgstr ""
+"Импортировать демонстрационные данные - это самый простой способ настроить вашу тему "
+"оформления."
+
+msgid "Importing widgets"
+msgstr "Импорт виджетов"
+
+msgid "Importing widgets..."
+msgstr "Импортируем виджеты..."
+
+msgid "Importing, please wait!"
+msgstr "Импорт, пожалуйста, подождите!"
+
+msgid "Importing..."
+msgstr "Импортируем..."
+
+msgid "Initial max execution time = %s"
+msgstr "Начальное максимальное время выполнения = %s"
+
+msgid "It will allow you to quickly edit everything instead of creating content from scratch."
+msgstr "Все данные, которые вы вносили в текущий шаблон будут утеряны при импорте нового."
+
+msgid ""
+"Just used One Click Demo Import plugin and it was awesome! Thanks @ProteusThemes! #OCDI "
+"https://www.proteusthemes.com/"
+msgstr ""
+"Только что использовал импорт своего сайта, заказанного у REG.RU!\n"
+"https://www.reg.ru"
+
+msgid "Manual demo files upload"
+msgstr "Ручная загрузка демонстрационных файлов"
+
+msgid "Manually uploaded files"
+msgstr "Загруженные вручную файлы"
+
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr "Отсутствует название опции Redux! Пожалуйста, также введите название опции Redux!"
+
+msgid "Missing URL for downloading a file!"
+msgstr "Отсутствует URL для загрузки файла!"
+
+msgid "New AJAX call!"
+msgstr "Новый звонок AJAX!"
+
+msgid "No Title"
+msgstr "Без названия"
+
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other data will be "
+"deleted or modified."
+msgstr ""
+"Все ваши медиа-файлы, страницы, посты и комментарии на сайте будут удалены. Перед импортом "
+"просим вас сделать бэкап сайта."
+
+msgid "No import files specified!"
+msgstr "Файлы импорта не указаны!"
+
+msgid "No preview image defined for this import."
+msgstr "Для этого демо не определено изображение для предварительного просмотра."
+
+msgid "No preview image."
+msgstr "Нет изображения."
+
+msgid "No results for widget import!"
+msgstr "Нет результатов для импорта виджетов!"
+
+msgid "One Click Demo Import"
+msgstr "Шаблоны сайта"
+
+msgid "One Click Demo Import - "
+msgstr "Импорт демо в один клик - "
+
+msgid "Please click on the Import button only once and wait, it can take a couple of minutes."
+msgstr ""
+"Пожалуйста, нажмите кнопку «Импорт» только один раз и подождите, это может занять пару "
+"минут."
+
+msgid "Posts, pages, images, widgets, menus and other theme settings will get imported."
+msgstr ""
+"Посты, страницы, изображения, виджеты, меню и другие настройки темы будут импортированы."
+
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+"Начался предварительный импорт демо-версии! Все остальные параметры будут игнорироваться!"
+
+msgid "Predefined import finished!"
+msgstr "Предопределенный импорт завершен!"
+
+msgid "Preparing the demo import files..."
+msgstr "Подготовка демо файлов для импорта ..."
+
+msgid "Preview"
+msgstr "Смотреть"
+
+msgid "ProteusThemes"
+msgstr "ProteusThemes"
+
+msgid "Redux file was not uploaded. Error: %s"
+msgstr "Файл Redux не был загружен. Ошибка: %s"
+
+msgid "Redux settings import for: %s finished successfully!"
+msgstr "Импорт настроек Redux для: %s успешно завершен!"
+
+msgid "Search demos..."
+msgstr "Найти"
+
+msgid "Selected demo import:"
+msgstr "Выбранный демо-импорт:"
+
+msgid "Selected predefined demo import: %s"
+msgstr "Выбранный предопределенный импорт демо: %s"
+
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "Боковая панель не существует в теме (перемещение виджета в неактивное)"
+
+msgid "Site does not support widget"
+msgstr "Сайт не поддерживает виджет"
+
+msgid "Switch back to theme predefined imports!"
+msgstr "Вернитесь к теме предопределенного импорта!"
+
+msgid "Switch to manual import!"
+msgstr "Переключитесь на ручной импорт!"
+
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI predefined demo "
+"import)!"
+msgstr ""
+"Параметр «предопределенный» должен быть числом (индекс предопределенного демо-импорта OCDI)!"
+
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run properly. "
+"Please contact your hosting company and ask them to update the PHP version of your site to "
+"at least PHP 5.3.2.%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+"Для плагина %2$sOne Click Demo Import%3$s требуется %2$sPHP 5.3.2+%3$s для правильной "
+"работы. Пожалуйста, свяжитесь с вашей хостинговой компанией и попросите включить для вашего "
+"сайта версию PHP как минимум PHP 5.3.2.%4$s Текущая версия PHP: %2$s%1$s%3$s"
+
+msgid "The Redux option name: %s, was not found in this WP site, so it was not imported!"
+msgstr ""
+"Имя параметра Redux: %s, не найдено на этом сайте WP, поэтому оно не было импортировано!"
+
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr "Плагин Redux не активирован, поэтому импорт Redux был пропущен!"
+
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "Файлы импорта для: %s были успешно загружены!"
+
+msgid "The import files were successfully uploaded!"
+msgstr "Импортированные файлы были успешно загружены!"
+
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the available "
+"predefined demo imports:"
+msgstr ""
+"Указанный предопределенный индекс не существует! Пожалуйста, взгляните на доступные "
+"предопределенные демо-импорт:"
+
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr "Для текущей активной темы нет предопределенного импорта демо!"
+
+msgid ""
+"There are no predefined import files available in this theme. Please upload the import "
+"files manually!"
+msgstr ""
+"В этой теме нет предопределенных файлов импорта. Пожалуйста, загрузите файлы импорта "
+"вручную!"
+
+msgid "There were some issues while importing customizer settings!"
+msgstr "Были некоторые проблемы при импорте настроек кастомайзера!"
+
+msgid "There were some issues while importing the content!"
+msgstr "Были некоторые проблемы при импорте контента!"
+
+msgid "There were some issues while importing widgets!"
+msgstr "Были некоторые проблемы при импорте виджетов!"
+
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin needs it in "
+"order to save the demo import xml file to the upload directory of your site. You can change "
+"this setting with these instructions: %s."
+msgstr ""
+"Эта страница WordPress не имеет доступа к файлу записи% sdirect% s. Этот плагин нужен для "
+"того, чтобы сохранить демо-файл импорта xml в каталог загрузки вашего сайта. Вы можете "
+"изменить этот параметр с помощью следующих инструкций: %s."
+
+msgid "Upload files"
+msgstr "Загрузить файлы"
+
+msgid "When you import the data, the following things might happen:"
+msgstr "При импорте данных произойдут следующие вещи:"
+
+msgid "Widget already exists"
+msgstr "Виджет уже существует"
+
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "Файл виджета не был загружен. Ошибка: %s"
+
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr "Предоставленный файл импорта виджетов не существует! Пропуск этого импорта!"
+
+msgid "Widgets imported successfully!"
+msgstr "Виджеты успешно импортированы!"
+
+msgid "Yes, import!"
+msgstr "Импортировать"
+
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr "Ваши учетные данные для входа в WordPress не позволяют использовать WP_Filesystem!"
+
+msgid "http://www.proteusthemes.com"
+msgstr "http://www.proteusthemes.com"
+
+msgid "https://wordpress.org/plugins/one-click-demo-import/"
+msgstr "https://wordpress.org/plugins/one-click-demo-import/"
+
+msgid "not defined!"
+msgstr "не определен!"
+
+msgid "category-company"
+msgstr "Сайт компании"
+
+msgid "category-ecommerce"
+msgstr "Интернет-Магазин"
+
+msgid "category-blog"
+msgstr "Персональный блог"
+
+msgid "category-portfolio"
+msgstr "Портфолио"
+
+msgid "category-landing"
+msgstr "Лэндинг"
+
+msgid "Adminka"
+msgstr "Админка"
+
+msgid "Choose Template"
+msgstr "Выберите шаблон"
+
+msgid "Choose it"
+msgstr "Выбрать"
+
+msgid "Your cart is empty"
+msgstr "Ваша корзина пустая"
+
+msgid "Looks like you have not made your choice yet..."
+msgstr "Вы еще не сделали свой выбор..."
+
+msgid "Your Cart Items"
+msgstr "Ваша корзина товаров"
+
+msgid "Cart"
+msgstr "Корзина"

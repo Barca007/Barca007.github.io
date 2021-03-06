@@ -1,0 +1,61 @@
+/* Widget - Cart */
+.dsdws-sidebar .widget_shopping_cart {
+
+  .total {
+    border          : none !important;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : space-between;
+
+    .amount {
+      font-weight : bold;
+      //color       : $baseHeaderColor;
+      font-size   : 20px;
+      }
+    }
+
+  span.quantity {
+    padding-top : 5px;
+    display     : inline-block;
+    }
+
+  a.remove {
+    top         : 20px !important;
+    left        : 5px !important;
+    background  : transparent !important;
+    //color       : $mainColor !important;
+    opacity     : 1;
+    line-height : 1em !important;
+    font-size   : 20px !important;
+
+    &:hover {
+      color      : $danger !important;
+      background : transparent !important;
+      }
+    }
+
+  .woocommerce-mini-cart__buttons {
+    margin-top: 10px;
+
+    a.button {
+      @include outlineButtonMixin();
+      width         : 100%;
+      display       : block;
+      margin-bottom : 10px;
+
+      @media (min-width : 300px) and (max-width : 980px) {
+        width   : 49%;
+        display : inline-block;
+
+        &:first-child {
+          margin-right : 2%;
+          }
+
+        &:last-child {
+          margin-right : 0;
+          }
+        }
+      }
+    }
+  }
+
